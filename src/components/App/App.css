@@ -1,0 +1,19 @@
+.page {
+    background-color: black;
+    font-family: 'Montserrat', 'Times New Roman', Times, serif;
+    background: #252525;
+}
+
+.page__content {
+    margin: 0 auto;
+    color: #FFFF;
+    max-width: 1920px;
+    min-width: 320px;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

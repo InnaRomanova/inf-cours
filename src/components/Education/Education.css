@@ -1,0 +1,145 @@
+.education {
+    margin: 0 371px;
+    padding: 80px 0 90px 0;
+    max-width: 1920px;
+    min-height: 427px;
+    position: relative;
+    background: linear-gradient(to , #252525, #CEAD78);
+}
+
+
+.education__title {
+    max-width: 780px;
+    min-height: 134px;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 129%;
+}
+
+.education__list {
+    margin: 0;
+    padding: 40px 0 38px 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 380px);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.education__list-item {
+    margin: 0;
+    padding: 0;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156%;
+    color: #FFFFFF;
+    order: 1;
+    flex-grow: 0;
+}
+
+.education__list-image {
+    margin: 0 10px 0 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.education__container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 39px;
+}
+
+.education__button-cours {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 80px;
+    width: 320px;
+    height: 65px;
+    left: 370px;
+    top: 322px;
+    background: #F4D011;
+    box-shadow: 0px 4px 4px rgba(245, 207, 18, 0.25);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    color: #171717;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+}
+
+.education__button-class {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    width: 320px;
+    height: 65px;
+    border-radius: 5px;
+    border: 3px solid #F4D011;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    color: #F4D011;
+    order: 0;
+    flex-grow: 0;
+    gap: 80px;
+    background: #252525;
+    border: 3px solid #F4D011;
+    box-shadow: 0px 4px 4px rgba(85, 85, 85, 0.25);
+}
+
+.education__image {
+    margin: 0;
+    padding: 0;
+    right: -240px;
+    top: -70px;
+    width: 687px;
+    height: 425px;
+    background-image: url(../../images/fon1.png);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: top right;
+    position: absolute;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    z-index: -2;
+}
+
+.education__image-priz {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-image: url(../../images/priz.png);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: center;
+    width: 451px;
+    height: 428px;
+    right: -36px;
+    top: 29px;
+    z-index: -1;
+}
