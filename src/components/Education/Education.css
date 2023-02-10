@@ -5,6 +5,7 @@
     min-height: 427px;
     position: relative;
     background: linear-gradient(to , #252525, #CEAD78);
+    z-index: 0;
 }
 
 
@@ -126,7 +127,7 @@
     background-position: top right;
     position: absolute;
     transform: matrix(-1, 0, 0, 1, 0, 0);
-    z-index: -2;
+    z-index: -1;
 }
 
 .education__image-priz {
