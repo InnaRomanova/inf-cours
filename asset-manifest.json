@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/inf-cours/static/css/main.0c57b174.css",
-    "main.js": "/inf-cours/static/js/main.eb27e734.js",
+    "main.js": "/inf-cours/static/js/main.d0a8c343.js",
     "static/media/priz.png": "/inf-cours/static/media/priz.ee64edffe95bed80684e.png",
     "static/media/fon1.png": "/inf-cours/static/media/fon1.a6e9e287056e3725e70e.png",
     "static/media/MontserratAlternates-Bold.woff": "/inf-cours/static/media/MontserratAlternates-Bold.fadf488dd2e40447af77.woff",
@@ -15,10 +15,10 @@
     "static/media/icon-telegram.svg": "/inf-cours/static/media/icon-telegram.5f53bdf80a0d2ce87e8d88e981d4b5a8.svg",
     "static/media/icon_arrow.svg": "/inf-cours/static/media/icon_arrow.e7096260e188b5db0eec2ff201544f24.svg",
     "main.0c57b174.css.map": "/inf-cours/static/css/main.0c57b174.css.map",
-    "main.eb27e734.js.map": "/inf-cours/static/js/main.eb27e734.js.map"
+    "main.d0a8c343.js.map": "/inf-cours/static/js/main.d0a8c343.js.map"
   },
   "entrypoints": [
     "static/css/main.0c57b174.css",
-    "static/js/main.eb27e734.js"
+    "static/js/main.d0a8c343.js"
   ]
 }
