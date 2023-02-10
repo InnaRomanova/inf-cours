@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.adaeba87.css",
-    "main.js": "/static/js/main.f90e37fd.js",
-    "static/media/priz.png": "/static/media/priz.ee64edffe95bed80684e.png",
-    "static/media/fon1.png": "/static/media/fon1.a6e9e287056e3725e70e.png",
-    "static/media/MontserratAlternates-Bold.woff": "/static/media/MontserratAlternates-Bold.fadf488dd2e40447af77.woff",
-    "static/media/MontserratAlternates-Medium.woff": "/static/media/MontserratAlternates-Medium.0edd0372717ea3a50eb2.woff",
-    "static/media/MontserratAlternates-Regular.woff": "/static/media/MontserratAlternates-Regular.f2f1f7c35d59da75a9c1.woff",
-    "static/media/MontserratAlternates-Medium.woff2": "/static/media/MontserratAlternates-Medium.5c7bafb4ec4e96fb551f.woff2",
-    "static/media/MontserratAlternates-Bold.woff2": "/static/media/MontserratAlternates-Bold.f834634d5e0592463c31.woff2",
-    "static/media/MontserratAlternates-Regular.woff2": "/static/media/MontserratAlternates-Regular.d1204f59bf870721e098.woff2",
-    "index.html": "/index.html",
-    "static/media/Vector.svg": "/static/media/Vector.7beb6def493aec9c26880ade1d5bb229.svg",
-    "static/media/icon-telegram.svg": "/static/media/icon-telegram.5f53bdf80a0d2ce87e8d88e981d4b5a8.svg",
-    "static/media/icon_arrow.svg": "/static/media/icon_arrow.e7096260e188b5db0eec2ff201544f24.svg",
-    "main.adaeba87.css.map": "/static/css/main.adaeba87.css.map",
-    "main.f90e37fd.js.map": "/static/js/main.f90e37fd.js.map"
+    "main.css": "/inf-cours/static/css/main.0c57b174.css",
+    "main.js": "/inf-cours/static/js/main.eb27e734.js",
+    "static/media/priz.png": "/inf-cours/static/media/priz.ee64edffe95bed80684e.png",
+    "static/media/fon1.png": "/inf-cours/static/media/fon1.a6e9e287056e3725e70e.png",
+    "static/media/MontserratAlternates-Bold.woff": "/inf-cours/static/media/MontserratAlternates-Bold.fadf488dd2e40447af77.woff",
+    "static/media/MontserratAlternates-Medium.woff": "/inf-cours/static/media/MontserratAlternates-Medium.0edd0372717ea3a50eb2.woff",
+    "static/media/MontserratAlternates-Regular.woff": "/inf-cours/static/media/MontserratAlternates-Regular.f2f1f7c35d59da75a9c1.woff",
+    "static/media/MontserratAlternates-Medium.woff2": "/inf-cours/static/media/MontserratAlternates-Medium.5c7bafb4ec4e96fb551f.woff2",
+    "static/media/MontserratAlternates-Bold.woff2": "/inf-cours/static/media/MontserratAlternates-Bold.f834634d5e0592463c31.woff2",
+    "static/media/MontserratAlternates-Regular.woff2": "/inf-cours/static/media/MontserratAlternates-Regular.d1204f59bf870721e098.woff2",
+    "index.html": "/inf-cours/index.html",
+    "static/media/Vector.svg": "/inf-cours/static/media/Vector.7beb6def493aec9c26880ade1d5bb229.svg",
+    "static/media/icon-telegram.svg": "/inf-cours/static/media/icon-telegram.5f53bdf80a0d2ce87e8d88e981d4b5a8.svg",
+    "static/media/icon_arrow.svg": "/inf-cours/static/media/icon_arrow.e7096260e188b5db0eec2ff201544f24.svg",
+    "main.0c57b174.css.map": "/inf-cours/static/css/main.0c57b174.css.map",
+    "main.eb27e734.js.map": "/inf-cours/static/js/main.eb27e734.js.map"
   },
   "entrypoints": [
-    "static/css/main.adaeba87.css",
-    "static/js/main.f90e37fd.js"
+    "static/css/main.0c57b174.css",
+    "static/js/main.eb27e734.js"
   ]
 }
