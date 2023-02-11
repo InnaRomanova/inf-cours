@@ -6,7 +6,7 @@ function Education() {
     return (
         <section className="education">
             <div className="education__block">
-            <h1 className="education__title">Современное образование без ограничений</h1>
+            <h1 className="education__title">Современное <span className="education__title-span">образование</span> без ограничений</h1>
             <span>
                 <ul className="education__list">
                     <li className="education__list-item"><img src={vector} className="education__list-image" />Доступ из любой точки мира</li>                    

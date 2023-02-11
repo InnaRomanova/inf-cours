@@ -7,7 +7,7 @@ import telegram from '../../images/icon-telegram.svg';
 function Header() {
     return (
         <header className="header">
-            <img src={logo} className="header__logo" />
+            <img src={logo} className="header__logo" alt="Логотип"/>
             <ul className="header__menu">
                 <li className="header__menu-item">Курсы
                     <img className="header__menu-icon" src={icon} /></li>
