@@ -1,16 +1,22 @@
 .page {
-    background-color: black;
-    font-family: 'Montserrat', 'Times New Roman', Times, serif;
     background: #252525;
+    font-family: 'Montserrat', 'Times New Roman', Times, serif;
+    margin: 0 auto;
 }
 
 .page__content {
-    margin: 0 auto;
+  
     color: #FFFF;
     max-width: 1920px;
     min-width: 320px;
     width: 100%;
+    
 }
+
+/* .page__content:nth-child(even) {
+    background: black;
+} */
+
 
 * {
     margin: 0;

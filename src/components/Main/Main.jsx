@@ -5,7 +5,7 @@ import Become from "../Become/Become";
 
 function Main() {
     return (
-        <main>
+        <main className="main">
             <Education />
             <Become />
         </main>

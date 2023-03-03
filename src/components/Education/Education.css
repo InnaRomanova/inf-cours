@@ -11,7 +11,7 @@
 
 .education__title {
     max-width: 780px;
-    min-height: 134px;
+    /* min-height: 134px; */
     margin: 0;
     padding: 0;
     font-style: normal;
