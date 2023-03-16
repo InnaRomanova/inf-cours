@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/inf-cours/static/css/main.5cc9f205.css",
-    "main.js": "/inf-cours/static/js/main.d0a8c343.js",
+    "main.css": "/inf-cours/static/css/main.cabc7bf9.css",
+    "main.js": "/inf-cours/static/js/main.a170e769.js",
     "static/media/priz.png": "/inf-cours/static/media/priz.ee64edffe95bed80684e.png",
     "static/media/fon1.png": "/inf-cours/static/media/fon1.a6e9e287056e3725e70e.png",
+    "static/media/becomeFonRight.png": "/inf-cours/static/media/becomeFonRight.735eade5095c749edc26.png",
+    "static/media/becomeFonLeft.png": "/inf-cours/static/media/becomeFonLeft.7b2a99697810f6b4c1c4.png",
     "static/media/MontserratAlternates-Bold.woff": "/inf-cours/static/media/MontserratAlternates-Bold.fadf488dd2e40447af77.woff",
     "static/media/MontserratAlternates-Medium.woff": "/inf-cours/static/media/MontserratAlternates-Medium.0edd0372717ea3a50eb2.woff",
     "static/media/MontserratAlternates-Regular.woff": "/inf-cours/static/media/MontserratAlternates-Regular.f2f1f7c35d59da75a9c1.woff",
     "static/media/MontserratAlternates-Medium.woff2": "/inf-cours/static/media/MontserratAlternates-Medium.5c7bafb4ec4e96fb551f.woff2",
     "static/media/MontserratAlternates-Bold.woff2": "/inf-cours/static/media/MontserratAlternates-Bold.f834634d5e0592463c31.woff2",
     "static/media/MontserratAlternates-Regular.woff2": "/inf-cours/static/media/MontserratAlternates-Regular.d1204f59bf870721e098.woff2",
+    "static/media/kouch.png": "/inf-cours/static/media/kouch.47fef027f230aa2a5e20.png",
+    "static/media/Android.png": "/inf-cours/static/media/Android.7ed18b422371a1181000.png",
+    "static/media/Digital.png": "/inf-cours/static/media/Digital.03229b7c34c4dc191551.png",
+    "static/media/SoftSkills.png": "/inf-cours/static/media/SoftSkills.b7530cd8876933038903.png",
     "index.html": "/inf-cours/index.html",
     "static/media/Vector.svg": "/inf-cours/static/media/Vector.7beb6def493aec9c26880ade1d5bb229.svg",
     "static/media/icon-telegram.svg": "/inf-cours/static/media/icon-telegram.5f53bdf80a0d2ce87e8d88e981d4b5a8.svg",
     "static/media/icon_arrow.svg": "/inf-cours/static/media/icon_arrow.e7096260e188b5db0eec2ff201544f24.svg",
-    "main.5cc9f205.css.map": "/inf-cours/static/css/main.5cc9f205.css.map",
-    "main.d0a8c343.js.map": "/inf-cours/static/js/main.d0a8c343.js.map"
+    "main.cabc7bf9.css.map": "/inf-cours/static/css/main.cabc7bf9.css.map",
+    "main.a170e769.js.map": "/inf-cours/static/js/main.a170e769.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cc9f205.css",
-    "static/js/main.d0a8c343.js"
+    "static/css/main.cabc7bf9.css",
+    "static/js/main.a170e769.js"
   ]
 }
