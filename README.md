@@ -2,6 +2,8 @@
 
 ### Обзор
 
+* [Ссылка на макет в Figma](https://www.figma.com/file/cihW9CA8lFMbOkEl1ECXiM/тестов90?node-id=0%3A1&t=IvBRjlIqJThyUx5r-0)
+
 **Использованные технологии**
 
 * HTML, CSS, Java Script.

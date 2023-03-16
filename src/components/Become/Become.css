@@ -4,26 +4,6 @@
     width: 100%;
 }
 
-.become__container {
-    margin: 0 370px;
-    padding: 60px 0 0 0;
-    min-height: 1284px;
-
-}
-
-/*
-.become__title {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    min-height: 57px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 52px;
-    line-height: 129%;
-    color: #FFFFFF;
-}
-*/
 .become__title-span {
     margin: 0;
     padding: 0;
@@ -33,38 +13,16 @@
     font-weight: 700;
     font-size: 52px;
     line-height: 129%;
-
-
-}
-
-.become__subtitle {
-    margin: 13px 0 0 0;
-    padding: 0;
-    width: 780px;
-    height: 25px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 126%;
-    color: #FFFFFF;
-}
-
-.become__list {
-    margin: 37px 0 0 0;
-    padding: 0;
-    width: 580px;
-    height: 521px;
-    list-style: none;
-    background: #F2F2F2;
-    color: #171717;
-    box-shadow: 0px 3px 4px rgba(153, 153, 153, 0.25), 0px -3px 4px rgba(153, 153, 153, 0.1);
-    border-radius: 10px;
 }
 
 .become__list-item {
-    margin: 0 20px;
-    padding: 21px 0 0;
-
+    margin: 0;
+    padding: 21px 20px 0;
+    background: #F2F2F2;
+    max-width: 580px;
+    border-radius: 10px;
+    min-height: 521px;
+    z-index: 1;
 }
 
 .become__item {
@@ -169,6 +127,10 @@
 }
 
 .become__price {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -182,4 +144,111 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
+}
+
+.become__right {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: flex;
+    gap: 21px;
+    text-align: center;
+    align-items: center;
+}
+
+.become__money {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.become__money-block {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125%;
+}
+
+.become__monthly {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.become__monthly-block {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: right;
+}
+
+.become__prices {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156%;
+}
+
+.become__buttons {
+    margin: 20px 0 0 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.become__button-detailed {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    width: 260px;
+    height: 65px;
+    background: #FFFFFF;
+    /* border: 2px solid #252525; */
+    box-shadow: 0px 4px 4px rgba(85, 85, 85, 0.25);
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    color: #252525;
+}
+
+.become__button-signup {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    width: 260px;
+    height: 65px;
+    background: #F4D011;
+    box-shadow: 0px 4px 4px rgba(85, 85, 85, 0.25);
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    color: #171717;
+    border: none;
 }
