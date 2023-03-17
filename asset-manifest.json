@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/inf-cours/static/css/main.cabc7bf9.css",
-    "main.js": "/inf-cours/static/js/main.a170e769.js",
+    "main.css": "/inf-cours/static/css/main.c0407f7e.css",
+    "main.js": "/inf-cours/static/js/main.ea30540e.js",
     "static/media/priz.png": "/inf-cours/static/media/priz.ee64edffe95bed80684e.png",
+    "static/media/school-fon.png": "/inf-cours/static/media/school-fon.86ded61572cc15dff818.png",
     "static/media/fon1.png": "/inf-cours/static/media/fon1.a6e9e287056e3725e70e.png",
     "static/media/becomeFonRight.png": "/inf-cours/static/media/becomeFonRight.735eade5095c749edc26.png",
     "static/media/becomeFonLeft.png": "/inf-cours/static/media/becomeFonLeft.7b2a99697810f6b4c1c4.png",
@@ -12,6 +13,9 @@
     "static/media/MontserratAlternates-Medium.woff2": "/inf-cours/static/media/MontserratAlternates-Medium.5c7bafb4ec4e96fb551f.woff2",
     "static/media/MontserratAlternates-Bold.woff2": "/inf-cours/static/media/MontserratAlternates-Bold.f834634d5e0592463c31.woff2",
     "static/media/MontserratAlternates-Regular.woff2": "/inf-cours/static/media/MontserratAlternates-Regular.d1204f59bf870721e098.woff2",
+    "static/media/photo_person_woman.svg": "/inf-cours/static/media/photo_person_woman.5d2a75a4241f9bead2fa79dd246ecf4f.svg",
+    "static/media/photo_person_man.svg": "/inf-cours/static/media/photo_person_man.3a431b6760b8d85eacb4f5d05c9cbee9.svg",
+    "static/media/rocket.png": "/inf-cours/static/media/rocket.0ac117fcb67baed9483e.png",
     "static/media/kouch.png": "/inf-cours/static/media/kouch.47fef027f230aa2a5e20.png",
     "static/media/Android.png": "/inf-cours/static/media/Android.7ed18b422371a1181000.png",
     "static/media/Digital.png": "/inf-cours/static/media/Digital.03229b7c34c4dc191551.png",
@@ -19,12 +23,14 @@
     "index.html": "/inf-cours/index.html",
     "static/media/Vector.svg": "/inf-cours/static/media/Vector.7beb6def493aec9c26880ade1d5bb229.svg",
     "static/media/icon-telegram.svg": "/inf-cours/static/media/icon-telegram.5f53bdf80a0d2ce87e8d88e981d4b5a8.svg",
+    "static/media/arrow_left.svg": "/inf-cours/static/media/arrow_left.1770d8c5072025ce380f91da5d6f5c4a.svg",
+    "static/media/arrow_right.svg": "/inf-cours/static/media/arrow_right.d683f36ace334e7ef91c4076ceb145a9.svg",
     "static/media/icon_arrow.svg": "/inf-cours/static/media/icon_arrow.e7096260e188b5db0eec2ff201544f24.svg",
-    "main.cabc7bf9.css.map": "/inf-cours/static/css/main.cabc7bf9.css.map",
-    "main.a170e769.js.map": "/inf-cours/static/js/main.a170e769.js.map"
+    "main.c0407f7e.css.map": "/inf-cours/static/css/main.c0407f7e.css.map",
+    "main.ea30540e.js.map": "/inf-cours/static/js/main.ea30540e.js.map"
   },
   "entrypoints": [
-    "static/css/main.cabc7bf9.css",
-    "static/js/main.a170e769.js"
+    "static/css/main.c0407f7e.css",
+    "static/js/main.ea30540e.js"
   ]
 }
