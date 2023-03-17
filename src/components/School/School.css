@@ -1,11 +1,45 @@
 .school {
     margin: 0 370px;
+    padding: 40px 0 0;
+    background-image: url(../../images/school-fon.png);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: right -27% top -94%;
+}
+
+.school__rocket {
+    margin: 0;
     padding: 0;
+    background-image: url(../../images/rocket.png);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: right 6% top -11%;
 }
 
 .school__block {
     margin: 0;
     padding: 0;
+  
+}
+
+.school__subtitle {
+    margin: 0;
+    padding: 0;
+    max-width: 780px;
+    min-height: 75px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156%;
+    color: #FFFFFF;
+}
+
+.school__list {
+    margin: 22px 0 0;
+    padding: 0;
+    display: flex;
+    gap: 60px;
 }
 
 .school__fon {
@@ -16,4 +50,81 @@
 .school__image {
     margin: 0;
     padding: 0;
+}
+
+.school__staff {
+    margin: 110px 0 0;
+    padding: 0;
+    display: flex;
+}
+
+.school__left {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.school__scroll {
+    margin: 0;
+    padding: 0;
+}
+
+.school__scroll-image {
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.school__user {
+    margin: 0 0 0 40px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.school__user-item {
+    margin: 0 41px 0 0;
+    padding: 0;
+    display: flex;
+}
+
+.school__image {
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+
+.school__content {
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    max-width: 350px;
+    min-height: 75px;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.school__name {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 141%;
+    color: #FFFFFF;
+}
+
+.school__post {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156%;
+    color: #FFFFFF;
+    max-width: 299px;
+    min-height: 94px;
 }
