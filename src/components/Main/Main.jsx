@@ -3,7 +3,7 @@ import './Main.css';
 import Education from "../Education/Education";
 import School from "../School/School";
 import BecomeList from "../BecomeList/BecomeList";
-import Become from "../Become/Become";
+import Choice from "../Сhoice/Сhoice";
 
 
 function Main() {
@@ -12,6 +12,7 @@ function Main() {
             <Education />
             <BecomeList />
             <School />
+            <Choice />
         </main>
     )
 }
