@@ -47,10 +47,8 @@ function BecomeList() {
         <section className="becomeList">
             <div className="become__container">
                 <h2 className="education__title">Кем <span className="education__title-span">стать</span>?</h2>
-                <p className="become__subtitle">Выберите направление и начните изучать то, что вам интересно.</p>
-                {/* <div className="becomeList__image"> */}
+                <p className="become__subtitle">Выберите направление и начните изучать то, что вам интересно.</p>              
                     <img className="becomeList__image-left" src={imageFonLeft} alt="картинка" />
-                {/* </div> */}
                 <ul className="become__list">
             {becomeArray.map((item, index) => (
                 <Become item={item} key={index} />
