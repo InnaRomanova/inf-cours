@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/inf-cours/static/css/main.efe76944.css",
-    "main.js": "/inf-cours/static/js/main.2c51a5e3.js",
+    "main.css": "/inf-cours/static/css/main.71ff598a.css",
+    "main.js": "/inf-cours/static/js/main.bee63ad4.js",
     "static/media/priz.png": "/inf-cours/static/media/priz.ee64edffe95bed80684e.png",
     "static/media/school-fon.png": "/inf-cours/static/media/school-fon.86ded61572cc15dff818.png",
     "static/media/fon1.png": "/inf-cours/static/media/fon1.a6e9e287056e3725e70e.png",
@@ -21,17 +21,20 @@
     "static/media/Android.png": "/inf-cours/static/media/Android.7ed18b422371a1181000.png",
     "static/media/Digital.png": "/inf-cours/static/media/Digital.03229b7c34c4dc191551.png",
     "static/media/SoftSkills.png": "/inf-cours/static/media/SoftSkills.b7530cd8876933038903.png",
+    "static/media/icon_viber.svg": "/inf-cours/static/media/icon_viber.6a75d058764223d881992bf9703e7ef1.svg",
+    "static/media/icon_whatsapp.svg": "/inf-cours/static/media/icon_whatsapp.41ad466b7cfa33504c42707c8175c58c.svg",
     "index.html": "/inf-cours/index.html",
     "static/media/Vector.svg": "/inf-cours/static/media/Vector.7beb6def493aec9c26880ade1d5bb229.svg",
+    "static/media/icon_telegram.svg": "/inf-cours/static/media/icon_telegram.d5372e513b3404256fc72dd8b43278ce.svg",
     "static/media/icon-telegram.svg": "/inf-cours/static/media/icon-telegram.5f53bdf80a0d2ce87e8d88e981d4b5a8.svg",
     "static/media/arrow_left.svg": "/inf-cours/static/media/arrow_left.1770d8c5072025ce380f91da5d6f5c4a.svg",
     "static/media/arrow_right.svg": "/inf-cours/static/media/arrow_right.d683f36ace334e7ef91c4076ceb145a9.svg",
     "static/media/icon_arrow.svg": "/inf-cours/static/media/icon_arrow.e7096260e188b5db0eec2ff201544f24.svg",
-    "main.efe76944.css.map": "/inf-cours/static/css/main.efe76944.css.map",
-    "main.2c51a5e3.js.map": "/inf-cours/static/js/main.2c51a5e3.js.map"
+    "main.71ff598a.css.map": "/inf-cours/static/css/main.71ff598a.css.map",
+    "main.bee63ad4.js.map": "/inf-cours/static/js/main.bee63ad4.js.map"
   },
   "entrypoints": [
-    "static/css/main.efe76944.css",
-    "static/js/main.2c51a5e3.js"
+    "static/css/main.71ff598a.css",
+    "static/js/main.bee63ad4.js"
   ]
 }
