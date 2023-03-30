@@ -130,3 +130,12 @@ input[type="number"]::-webkit-inner-spin-button {
     line-height: 15px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1845px) {    
+    .choice__block {
+        margin-left: 250px;
+        margin-right: 250px;
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+}

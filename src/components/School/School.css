@@ -1,6 +1,6 @@
 .school {
     margin: 0 370px;
-    padding: 40px 0 0;
+    padding: 60px 0 0;
     background-image: url(../../images/school-fon.png);
     background-repeat: no-repeat;
     background-size: inherit;
@@ -122,4 +122,13 @@
     color: #FFFFFF;
     max-width: 299px;
     min-height: 94px;
+}
+
+@media screen and (max-width: 1845px) {    
+    .school {
+        margin-left: 250px;
+        margin-right: 250px;
+        padding-top: 40px;
+        background-position: right top -94%;
+    }
 }

@@ -156,3 +156,29 @@
     top: 29px;
     z-index: -1;
 }
+
+@media screen and (max-width: 1845px) {
+    .education {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    
+    
+    .education__title {
+        max-width: 680px;
+        font-size: 42px;
+    }
+    
+    .education__image {
+        right: -100px;
+        width: 587px;
+        height: 325px;
+        background-size: contain;
+    }
+    
+    .education__image-priz {
+        background-size: cover;
+        width: 351px;
+        height: 328px;
+    }
+}

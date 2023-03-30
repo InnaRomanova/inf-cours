@@ -3,7 +3,6 @@
     padding: 12px 0;
     height: 80px;
     display: flex;
-    /* justify-content: space-between; */
     align-items: end;
     background: #252525;
 }
@@ -11,7 +10,6 @@
 .header__container {
     margin: 0 185px;
     padding: 0;
-    /* grid-template-columns: repeat(6, 1fr); */
 }
 
 .header__logo {
@@ -98,4 +96,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+@media screen and (max-width: 1845px) {
+    .header {
+        margin-left: 190px;
+    }
+    .header__menu {
+        margin-left: 280px;
+    }
 }
