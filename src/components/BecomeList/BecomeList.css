@@ -20,7 +20,7 @@
 .become__subtitle {
     margin: 13px 0 0 0;
     padding: 0;
-    width: 780px;
+    /* max-width: 780px; */
     height: 25px;
     font-style: normal;
     font-weight: 400;
@@ -51,7 +51,7 @@
     margin: 37px 0 0 0;
     padding: 0;
     width: 100%;
-    height: 521px;
+    min-height: 521px;
     list-style: none;
     color: #171717;
     display: grid;
@@ -62,7 +62,19 @@
 
 @media screen and (max-width: 1845px) {    
     .become__container {
+        padding-top: 40px;
         margin-left: 250px;
         margin-right: 250px;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .become__list {
+        margin: 37px 0 0 0;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 20px;
+        justify-items: center;
     }
 }

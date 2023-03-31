@@ -131,4 +131,9 @@
         padding-top: 40px;
         background-position: right top -94%;
     }
+
+    .school__image {
+        width: 140px;
+        height: 160px;
+    }
 }
