@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/inf-cours/static/css/main.f46a802e.css",
-    "main.js": "/inf-cours/static/js/main.bee63ad4.js",
+    "main.css": "/inf-cours/static/css/main.60029f49.css",
+    "main.js": "/inf-cours/static/js/main.6d4ff8f5.js",
     "static/media/priz.png": "/inf-cours/static/media/priz.ee64edffe95bed80684e.png",
     "static/media/school-fon.png": "/inf-cours/static/media/school-fon.86ded61572cc15dff818.png",
     "static/media/fon1.png": "/inf-cours/static/media/fon1.a6e9e287056e3725e70e.png",
@@ -14,27 +14,27 @@
     "static/media/MontserratAlternates-Bold.woff2": "/inf-cours/static/media/MontserratAlternates-Bold.f834634d5e0592463c31.woff2",
     "static/media/MontserratAlternates-Regular.woff2": "/inf-cours/static/media/MontserratAlternates-Regular.d1204f59bf870721e098.woff2",
     "static/media/choiceFon.png": "/inf-cours/static/media/choiceFon.0fdfc7dbf02eede6f344.png",
-    "static/media/photo_person_woman.svg": "/inf-cours/static/media/photo_person_woman.5d2a75a4241f9bead2fa79dd246ecf4f.svg",
-    "static/media/photo_person_man.svg": "/inf-cours/static/media/photo_person_man.3a431b6760b8d85eacb4f5d05c9cbee9.svg",
+    "static/media/photo_person_woman.svg": "/inf-cours/static/media/photo_person_woman.d7754dece7b671f1b58c6a14f1116374.svg",
+    "static/media/photo_person_man.svg": "/inf-cours/static/media/photo_person_man.50829cc9bc9987f559427b482497cb72.svg",
     "static/media/rocket.png": "/inf-cours/static/media/rocket.0ac117fcb67baed9483e.png",
     "static/media/kouch.png": "/inf-cours/static/media/kouch.47fef027f230aa2a5e20.png",
     "static/media/Android.png": "/inf-cours/static/media/Android.7ed18b422371a1181000.png",
     "static/media/Digital.png": "/inf-cours/static/media/Digital.03229b7c34c4dc191551.png",
     "static/media/SoftSkills.png": "/inf-cours/static/media/SoftSkills.b7530cd8876933038903.png",
-    "static/media/icon_viber.svg": "/inf-cours/static/media/icon_viber.6a75d058764223d881992bf9703e7ef1.svg",
-    "static/media/icon_whatsapp.svg": "/inf-cours/static/media/icon_whatsapp.41ad466b7cfa33504c42707c8175c58c.svg",
+    "static/media/icon_viber.svg": "/inf-cours/static/media/icon_viber.47b596f10cb1cc9a26212c0096ffb970.svg",
+    "static/media/icon_whatsapp.svg": "/inf-cours/static/media/icon_whatsapp.f7456bd2a18cdd78691a6fc86ed3920d.svg",
     "index.html": "/inf-cours/index.html",
-    "static/media/Vector.svg": "/inf-cours/static/media/Vector.7beb6def493aec9c26880ade1d5bb229.svg",
-    "static/media/icon_telegram.svg": "/inf-cours/static/media/icon_telegram.d5372e513b3404256fc72dd8b43278ce.svg",
-    "static/media/icon-telegram.svg": "/inf-cours/static/media/icon-telegram.5f53bdf80a0d2ce87e8d88e981d4b5a8.svg",
-    "static/media/arrow_left.svg": "/inf-cours/static/media/arrow_left.1770d8c5072025ce380f91da5d6f5c4a.svg",
-    "static/media/arrow_right.svg": "/inf-cours/static/media/arrow_right.d683f36ace334e7ef91c4076ceb145a9.svg",
-    "static/media/icon_arrow.svg": "/inf-cours/static/media/icon_arrow.e7096260e188b5db0eec2ff201544f24.svg",
-    "main.f46a802e.css.map": "/inf-cours/static/css/main.f46a802e.css.map",
-    "main.bee63ad4.js.map": "/inf-cours/static/js/main.bee63ad4.js.map"
+    "static/media/Vector.svg": "/inf-cours/static/media/Vector.7ef8365f06b5e97b070e698fb9893419.svg",
+    "static/media/icon_telegram.svg": "/inf-cours/static/media/icon_telegram.0fc8f14927fa53fb11efdb154cfc150f.svg",
+    "static/media/icon-telegram.svg": "/inf-cours/static/media/icon-telegram.82276399c72474d1be4d6a3cea807e6e.svg",
+    "static/media/arrow_left.svg": "/inf-cours/static/media/arrow_left.aea09173cb19f9de688b05504f21730b.svg",
+    "static/media/arrow_right.svg": "/inf-cours/static/media/arrow_right.1897d09ac21f2c0d7aa238d8890a2e47.svg",
+    "static/media/icon_arrow.svg": "/inf-cours/static/media/icon_arrow.514e865f3f7d2152223578ef20e6ba4d.svg",
+    "main.60029f49.css.map": "/inf-cours/static/css/main.60029f49.css.map",
+    "main.6d4ff8f5.js.map": "/inf-cours/static/js/main.6d4ff8f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.f46a802e.css",
-    "static/js/main.bee63ad4.js"
+    "static/css/main.60029f49.css",
+    "static/js/main.6d4ff8f5.js"
   ]
 }
