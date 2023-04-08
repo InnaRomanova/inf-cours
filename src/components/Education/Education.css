@@ -1,11 +1,13 @@
 .education {
     margin: 0 371px;
     padding: 80px 0 90px 0;
-    max-width: 1920px;
-    min-height: 427px;
+    min-height: 518px;
     position: relative;
-    background: linear-gradient(to , #252525, #CEAD78);
     z-index: 0;
+    background-image: url(../../images/fon1.png);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: top right;
 }
 
 
@@ -28,7 +30,7 @@
     font-weight: 700;
     font-size: 52px;
     line-height: 129%;
-    color: #F4D011;  
+    color: #F4D011;
 }
 
 .education__list {
@@ -125,6 +127,7 @@
     box-shadow: 0px 4px 4px rgba(85, 85, 85, 0.25);
 }
 
+/* 
 .education__image {
     margin: 0;
     padding: 0;
@@ -139,7 +142,7 @@
     position: absolute;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     z-index: -1;
-}
+} */
 
 .education__image-priz {
     margin: 0;
@@ -161,23 +164,30 @@
         margin-left: 250px;
         margin-right: 250px;
     }
-    
-    
+
+
     .education__title {
         max-width: 680px;
         font-size: 42px;
     }
-    
+
     .education__image {
         right: -100px;
         width: 587px;
         height: 325px;
         background-size: contain;
     }
-    
+
     .education__image-priz {
         background-size: cover;
         width: 351px;
         height: 328px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .education {
+        margin-left: 100px;
+        margin-right: 100px;
     }
 }

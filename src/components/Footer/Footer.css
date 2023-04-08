@@ -134,15 +134,34 @@
     gap: 10px;
 }
 
-@media screen and (max-width: 1845px) {    
+@media screen and (max-width: 1845px) {
     .footer__container {
         margin-left: 250px;
         margin-right: 250px;
         padding-top: 30px;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .footer__rights-block {
         margin-left: 250px;
         margin-right: 250px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .footer__container {
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-top: 40px;
+        min-height: 288px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 713px) {
+    .footer__container {
+        grid-template-columns: repeat(1, 1fr);
     }
 }

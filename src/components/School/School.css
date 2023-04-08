@@ -19,11 +19,11 @@
 .school__block {
     margin: 0;
     padding: 0;
-  
+
 }
 
 .school__subtitle {
-    margin: 0;
+    margin: 0 20px 0 0;
     padding: 0;
     max-width: 780px;
     min-height: 75px;
@@ -93,7 +93,7 @@
 .school__content {
     margin: 0;
     padding: 0;
-    display: flex; 
+    display: flex;
     max-width: 350px;
     min-height: 75px;
     align-items: baseline;
@@ -124,7 +124,7 @@
     min-height: 94px;
 }
 
-@media screen and (max-width: 1845px) {    
+@media screen and (max-width: 1845px) {
     .school {
         margin-left: 250px;
         margin-right: 250px;
@@ -135,5 +135,22 @@
     .school__image {
         width: 140px;
         height: 160px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .school {
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-top: 40px;
+        background-position: right top -94%;
+    }
+}
+
+@media screen and (max-width: 918px) {
+    .school {
+        margin-left: 20px;
+        margin-right: 200px;
+        padding-top: 40px;
     }
 }
