@@ -138,7 +138,7 @@
     }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1350px) {
     .school {
         margin-left: 100px;
         margin-right: 100px;
@@ -147,10 +147,42 @@
     }
 }
 
-@media screen and (max-width: 918px) {
+@media screen and (max-width: 1108px) {
     .school {
         margin-left: 20px;
-        margin-right: 200px;
+        margin-right: 20px;
         padding-top: 40px;
+    }
+
+    .school__list {
+        justify-content: center;
+    }
+
+    .school__staff {
+        margin-top: 70px;
+        justify-content: center;
+    }
+
+    .school__user {
+        margin: 0 0 0 40px;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+
+    .school__user-item:nth-last-of-type(1) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 744px) {
+    .school__list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .school__staff {
+        margin-top: 50px;
+
     }
 }

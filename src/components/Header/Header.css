@@ -106,6 +106,7 @@
 @media screen and (max-width: 1845px) {
     .header {
         margin-left: 190px;
+        margin-right: 190px;
     }
 
     /* .header__menu {
@@ -113,7 +114,15 @@
     }*/
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1350px) {
+    .header {
+        margin-left: 100px;
+        margin-right: 100px;
+
+    }
+}
+
+@media screen and (max-width: 1108px) {
     .header {
         margin-left: 20px;
         margin-right: 25px;

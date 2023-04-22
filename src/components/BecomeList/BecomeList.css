@@ -77,14 +77,14 @@
     }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1350px) {
     .become__container {
         margin-left: 100px;
         margin-right: 100px;
     }
 }
 
-@media screen and (max-width: 713px) {
+@media screen and (max-width: 1108px) {
     .become__container {
         margin-left: 20px;
         margin-right: 20px;

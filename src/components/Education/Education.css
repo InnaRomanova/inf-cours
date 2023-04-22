@@ -1,7 +1,7 @@
 .education {
     margin: 0 371px;
     padding: 80px 0 90px 0;
-    min-height: 518px;
+    min-height: 418px;
     position: relative;
     z-index: 0;
     background-image: url(../../images/fon1.png);
@@ -185,9 +185,40 @@
     }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1350px) {
     .education {
         margin-left: 100px;
         margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 1108px) {
+    .education {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .education__container {
+        justify-content: center;
+    }
+
+    .education__image-priz {
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 744px) {
+    .education {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .education__list {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .education__container {
+        flex-direction: column;
     }
 }
