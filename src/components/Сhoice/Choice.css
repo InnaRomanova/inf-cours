@@ -131,11 +131,46 @@ input[type="number"]::-webkit-inner-spin-button {
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 1845px) {    
+@media screen and (max-width: 1845px) {
     .choice__block {
         margin-left: 250px;
         margin-right: 250px;
         padding-top: 120px;
         padding-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .choice__block {
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 1108px) {
+    .choice__block {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .choice__content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .choice__content-text {
+        max-width: 100%;
+    }
+
+    .choice__form {
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (max-width: 744px) {
+    .choice__form {
+        flex-direction: column;
     }
 }

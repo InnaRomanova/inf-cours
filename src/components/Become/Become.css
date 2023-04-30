@@ -19,7 +19,7 @@
     margin: 0;
     padding: 21px 20px 0;
     background: #F2F2F2;
-    max-width: 580px;
+    /* max-width: 580px; */
     border-radius: 10px;
     min-height: 521px;
     z-index: 1;
@@ -100,7 +100,7 @@
 .become__plan {
     margin: 18px 0 0;
     padding: 0;
-    width: 533px;
+    max-width: 533px;
     height: 66px;
     background: #FFFFFF;
     box-shadow: 0px 3px 4px rgba(153, 153, 153, 0.25), 0px -3px 4px rgba(153, 153, 153, 0.1);
@@ -218,7 +218,6 @@
     width: 260px;
     height: 65px;
     background: #FFFFFF;
-    /* border: 2px solid #252525; */
     box-shadow: 0px 4px 4px rgba(85, 85, 85, 0.25);
     border-radius: 5px;
     font-family: 'Montserrat';
@@ -251,4 +250,24 @@
     text-align: center;
     color: #171717;
     border: none;
+}
+
+@media screen and (max-width: 1845px) { 
+    .become__item {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .become__text {
+        max-width: 100%;
+    }
+
+    .become__plan {
+        max-width: 100%;
+        justify-content: space-around;
+    }
+
+    .become__buttons {
+        justify-content: space-around;
+    }
 }
