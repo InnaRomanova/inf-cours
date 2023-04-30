@@ -10,9 +10,9 @@ export default function MobileMenu() {
       <path
         d="M33 22L2 22M33 32L2 32M33 2L2 2M33 12L2 12"
         stroke="white"
-        stroke-width="3"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

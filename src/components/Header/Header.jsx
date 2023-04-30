@@ -5,7 +5,7 @@ import logo from "../../../src/images/Logo.png";
 import icon from "../../images/icon_arrow.svg";
 import telegram from "../../images/icon-telegram.svg";
 import { useMediaQuery } from "usehooks-ts";
-import MobileMenu from "../elements/Burger_menu.jsx";
+import MobileMenu from "../elements/BurgerMenu";
 
 function Header() {
   const matches = useMediaQuery("(max-width: 1108px)");
