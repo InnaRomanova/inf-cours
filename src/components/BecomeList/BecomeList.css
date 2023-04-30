@@ -89,4 +89,10 @@
         margin-left: 20px;
         margin-right: 20px;
     }
+
+    .becomeList__image-left {
+        width: 320px;
+        height: 200px;
+    }
+
 }

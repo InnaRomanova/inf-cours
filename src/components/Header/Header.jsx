@@ -1,18 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 import logo from "../../../src/images/Logo.png";
 import icon from "../../images/icon_arrow.svg";
 import telegram from "../../images/icon-telegram.svg";
 import { useMediaQuery } from "usehooks-ts";
+import MobileMenu from "../elements/Burger_menu.jsx";
 
 function Header() {
-  const matches = useMediaQuery("(max-width: 1250px)");
+  const matches = useMediaQuery("(max-width: 1108px)");
+
   return (
     <>
       {matches ? (
         <header className="header">
           <img src={logo} className="header__logo" alt="Логотип" />
-          <link className="header__menu-burger"></link>
+          <MobileMenu className="header__menu-burger"></MobileMenu>
         </header>
       ) : (
         <header className="header">

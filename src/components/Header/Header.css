@@ -134,9 +134,13 @@
     }
 
     .header__menu-burger {
-        background-image: url(../../images/burger_menu.svg);
+        margin: 0 44px 0 0;
+        padding: 0;
+        width: 20px;
+        height: 20px;
+        /* background-image: url(../../images/burger_menu.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        display: flex;
+        display: flex; */
     }
 }
