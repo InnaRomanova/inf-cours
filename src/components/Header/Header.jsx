@@ -1,21 +1,34 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useState } from "react";
 import "./Header.css";
 import logo from "../../../src/images/Logo.png";
 import icon from "../../images/icon_arrow.svg";
 import telegram from "../../images/icon-telegram.svg";
 import { useMediaQuery } from "usehooks-ts";
 import MobileMenu from "../elements/BurgerMenu";
+import Navigation from "../Navigation/Navigation";
 
 function Header() {
   const matches = useMediaQuery("(max-width: 1108px)");
+  const [openModal, setOpenModal] = useState(false);
+
+  function handleOpen() {
+    setOpenModal(true);
+  }
+
+  function handleClose() {
+    setOpenModal(false);
+  }
 
   return (
     <>
       {matches ? (
         <header className="header">
           <img src={logo} className="header__logo" alt="Логотип" />
-          <MobileMenu className="header__menu-burger"></MobileMenu>
+          <button className="header__menu-button" onClick={handleOpen}>
+            <MobileMenu className="header__menu-burger" />
+          </button>
+          {openModal ? <Navigation handleClose={handleClose} /> : ""}
         </header>
       ) : (
         <header className="header">
