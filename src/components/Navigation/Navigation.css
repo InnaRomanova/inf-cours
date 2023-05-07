@@ -1,0 +1,50 @@
+@media screen and (max-width: 1108px) {
+    .navigation {
+        display: flex;
+        margin: 80px 0 0;
+        padding: 0;
+        top: 0;
+        position: fixed;
+        left: 0;
+        background: black;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .navigation__block {
+        display: flex;
+        margin: 0 20px 0;
+        padding: 0;
+        width: 100%;
+
+    }
+
+    .navigation__close-button {
+        margin: -50px 25px 0;
+        padding: 0;
+        background-image: url(../../images/close-button-menu.svg);
+        background-repeat: no-repeat;
+        background-color: transparent;
+        width: 40px;
+        height: 40px;
+        border: none;
+    }
+
+    .navigation__close-button {
+        cursor: pointer;
+        opacity: 0.6;
+    }
+
+    .navigation__list {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navigation__list-item {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+}
