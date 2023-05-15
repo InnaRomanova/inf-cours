@@ -11,6 +11,8 @@ import Navigation from "../Navigation/Navigation";
 function Header() {
   const matches = useMediaQuery("(max-width: 1108px)");
   const [openModal, setOpenModal] = useState(false);
+  const [show, setShow] = useState(false);
+  const handleShow = () => setShow(!show);
 
   function handleOpen() {
     setOpenModal(true);
@@ -26,7 +28,7 @@ function Header() {
         <header className="header">
           <img src={logo} className="header__logo" alt="Логотип" />
           <button className="header__menu-button" onClick={handleOpen}>
-            <MobileMenu className="header__menu-burger" />
+            <MobileMenu className="header__menu-burger"/>
           </button>
           {openModal ? <Navigation handleClose={handleClose} /> : ""}
         </header>
