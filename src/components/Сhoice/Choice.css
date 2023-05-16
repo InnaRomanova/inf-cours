@@ -170,7 +170,44 @@ input[type="number"]::-webkit-inner-spin-button {
 
 
 @media screen and (max-width: 744px) {
+    .choice__block {
+        padding-top: 44px;
+        padding-bottom: 50px;
+    }
+
     .choice__form {
         flex-direction: column;
+        gap: 7px;
     }
+
+    .choice__container {
+        gap: 5px;
+    }
+
+    .choice__content {
+        margin-top: 6px;
+    }
+
+    .choice__input {
+        width: 100%;
+    }
+
+    .choice__label {
+        font-size: 14px;
+        line-height: 143%;
+    }
+
+    .choice__number {
+        font-size: 14px;
+        line-height: 143%;
+    }
+
+    .choice__button {
+        width: 100%;
+    }
+
+    .choice__button-label {
+        margin-top: 5px;
+    }
+
 }

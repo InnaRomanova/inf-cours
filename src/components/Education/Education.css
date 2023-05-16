@@ -209,8 +209,9 @@
 
     .education__list {
         grid-template-columns: repeat(1, 1fr);
-        gap: 11px;
-        padding-bottom: 20.5px;
+        gap: 5px;
+        padding-bottom: 17px;
+        padding-top: 18px;
     }
 
     .education__list-item {
@@ -231,21 +232,26 @@
         flex-direction: column;
     }
 
-    
+
 }
 
 @media screen and (max-width: 400px) {
     .education {
-        height: 850px;
+        height: 839px;
     }
-.education__image-priz {
+
+    .education__list-image {
+        margin-bottom: 3px;
+    }
+
+    .education__image-priz {
         margin: 0;
         padding: 0;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         width: 280px;
-        height: 274px;
-        top: 529px;
-    }    
+        height: 260px;
+        top: 505px;
+    }
 }

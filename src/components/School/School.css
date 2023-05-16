@@ -176,13 +176,57 @@
 }
 
 @media screen and (max-width: 744px) {
+    .school {
+        padding-top: 61px;
+    }
+
+    .school__rocket {
+        background-position: right 6% top 48%;
+    }
+
+    .school__subtitle {
+        margin-top: 13px;
+        margin-right: 0;
+    }
+
     .school__list {
+        margin-top: 19px;
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
     }
 
     .school__staff {
-        margin-top: 50px;
-
+        margin-top: 370px;
     }
+
+    .school__left {
+        align-items: flex-end;
+        height: 190px;
+    }
+
+    .school__user-item {
+        margin-right: 0;
+    }
+
+    .school__user-item {
+        flex-direction: column;
+    }
+
+    .school__image {
+        width: 179px;
+        height: 180px;
+    }
+
+    .school__name {
+        margin-top: 20px;
+        margin-left: 19px;
+        font-size: 20px;
+        line-height: 125%;
+        text-align: center;
+    }
+
+    .school__post {
+        width: 100%;
+    }
+
 }

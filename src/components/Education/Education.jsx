@@ -7,7 +7,7 @@ function Education() {
     <section className="education">
       <div className="education__block">
         <h1 className="education__title">
-          Современное <span className="education__title-span">образование</span>{" "}
+          Современное <span className="education__title-span">образование&#160;</span>
           без ограничений
         </h1>
         <span>

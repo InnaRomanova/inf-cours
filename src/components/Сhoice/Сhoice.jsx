@@ -6,7 +6,7 @@ function Choice() {
     return (
         <section className="choice">
             <div className="choice__block">
-            <h2 className="education__title">Поможем в <span className="education__title-span">выборе</span>!</h2>
+            <h2 className="education__title">Поможем в&#160;<span className="education__title-span">выборе</span>!</h2>
             <div className="choice__content">
                 <div className="choice__content-text">
                     <p className="school__subtitle">Если у вас есть вопросы о формате или вы не знаете, что выбрать,
