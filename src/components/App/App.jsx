@@ -1,14 +1,47 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import { CurrentUserContext } from "../../contexts/CurrentUserContext";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
+import ProgrammCourses from "../ProgrammCourses/ProgrammCourses";
 
-function App() {
+function App({ }) {
   const [currentUser, setCurrentUser] = useState({});
+  const [isCoursesPopupOpened, setIsCoursesPopupOpened] = useState(false);
+  const [list, setList] = useState([]);
+  const [selectCard, setSelectCard] = useState({});
+
+  function handleAddCoursSubmit(card) {
+    setSelectCard(card);
+    setIsCoursesPopupOpened(true);
+  }
+
+  const closePopup = () => {
+    setIsCoursesPopupOpened(false);
+  }
+
+  const closeByEsc = (e) => {
+    if (e.key === 'Escape') {
+      closePopup()
+    }
+  }
+
+  const closeByOverlay = (e) => {
+    if (e.target.classList.contains('.navigation')) {
+      closePopup()
+    }
+  }
+
+  useEffect(() => {
+    if (isCoursesPopupOpened) {
+      document.addEventListener('keydown', closeByEsc);
+    }
+    return () => (document.removeEventListener('keydown', closeByEsc));
+  }, [isCoursesPopupOpened]);
+
 
   return (
     <div className="page">
@@ -21,11 +54,20 @@ function App() {
               element={
                 <>
                   <Header />
-                  <Main />
+                  <Main 
+                  list={list}
+                  setList={setList}/>
                   <Footer />
                 </>
               }
             ></Route>
+            <Route path="/courses" element={
+              <ProgrammCourses component={ProgrammCourses}
+                isOpen={isCoursesPopupOpened}
+                onAddCours={handleAddCoursSubmit}
+                onClose={closePopup}
+                onCloseOverlay={closeByOverlay} />} >
+            </Route>
           </Routes>
         </div>
       </CurrentUserContext.Provider>

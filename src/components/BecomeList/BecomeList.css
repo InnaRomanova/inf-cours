@@ -107,4 +107,10 @@
         line-height: 156%;
         color: #FFFFFF;
     }
+
+    .becomeList__image-left {
+        width: 220px;
+        height: 100px;
+        left: 0;
+    }
 }

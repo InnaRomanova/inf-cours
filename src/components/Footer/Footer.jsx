@@ -86,7 +86,7 @@ function Footer() {
           </ul>
         </div>
         <div className="footer__cours">
-          <h3 className="footer__cours-name">Контакты</h3>
+          <h3 className="footer__cours-name footer__cours-tel">Контакты</h3>
           <ul className="footer__list-cours">
             <li className="footer__name">+375(33) 637-30-79</li>
             <li className="footer__name">sales@insaitika.com</li>
