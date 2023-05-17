@@ -229,6 +229,11 @@
     color: #252525;
 }
 
+.become__button-detailed:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
 .become__button-signup {
     margin: 0;
     padding: 0;

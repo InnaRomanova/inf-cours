@@ -108,10 +108,6 @@
         margin-left: 190px;
         margin-right: 190px;
     }
-
-    /* .header__menu {
-        margin-left: 280px;
-    }*/
 }
 
 @media screen and (max-width: 1350px) {
@@ -139,6 +135,10 @@
         border: none;
         background-color: transparent;
         display: block;
+    }
+
+    .header__menu-button_disabled {
+        display: none;
     }
 
     .header__menu-burger {

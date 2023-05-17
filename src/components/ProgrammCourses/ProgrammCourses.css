@@ -1,0 +1,12 @@
+.propgramm {
+    display: flex;
+    width: 820px;
+    height: 986px;
+    left: 0px;
+    top: 2px;
+    background: #F2F2F2;
+    box-shadow: 0px 3px 4px rgba(255, 255, 255, 0.25), 0px -3px 4px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.propgramm__container {}

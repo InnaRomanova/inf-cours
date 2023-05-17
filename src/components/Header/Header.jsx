@@ -14,6 +14,10 @@ function Header() {
   const [show, setShow] = useState(false);
   const handleShow = () => setShow(!show);
 
+  const buttonMenuDisabled = (
+    {openModal} ? 'header__menu-button_disabled': ''
+  );
+
   function handleOpen() {
     setOpenModal(true);
   }
