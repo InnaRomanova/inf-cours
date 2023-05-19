@@ -1,23 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navigation.css";
+import Cours from "../Cours/Cours";
+import VerticalArrow from "../elements/VerticalArrow";
 
-function Navigation({ handleClose, onClick, onCloseOverlay, list }) {
+function Navigation({}) {
+  const [openCours, setOpenCours] = useState(false);
+
+  function handleOpen() {
+    setOpenCours(!openCours);
+  }
   return (
-    <section className="navigation" onCloseOverlay={onCloseOverlay}>
+    <section className="navigation">
       <div className="navigation__block">
         <ul className="navigation__list">
-          <li className="navigation__list-item" onClick={onClick}>Курсы
-          {/* {list.map((list, index) => (
-                <Cours list={list} key={index} />
-            )
-            )} */}
-            </li>
+          <li className="navigation__list-item" onClick={handleOpen}>
+            Курсы
+            <VerticalArrow onOpen={openCours} />
+          </li>
+          {openCours && <Cours />}
           <li className="navigation__list-item">О компании</li>
           <li className="navigation__list-item">Акции</li>
           <li className="navigation__list-item">Контакты</li>
         </ul>
       </div>
-      <button className="navigation__close-button" onClick={handleClose} />
+      {/* <button className="navigation__close-button" onClick={handleClose} /> */}
     </section>
   );
 }

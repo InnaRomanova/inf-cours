@@ -14,9 +14,9 @@ function Header() {
   const [show, setShow] = useState(false);
   const handleShow = () => setShow(!show);
 
-  const buttonMenuDisabled = (
-    {openModal} ? 'header__menu-button_disabled': ''
-  );
+  const buttonMenuDisabled = { openModal }
+    ? "header__menu-button_disabled"
+    : "";
 
   function handleOpen() {
     setOpenModal(true);
@@ -31,9 +31,16 @@ function Header() {
       {matches ? (
         <header className="header">
           <img src={logo} className="header__logo" alt="Логотип" />
-          <button className="header__menu-button" onClick={handleOpen}>
-            <MobileMenu className="header__menu-burger"/>
-          </button>
+          {openModal ? (
+            <button
+              className="navigation__close-button"
+              onClick={handleClose}
+            />
+          ) : (
+            <button className="header__menu-button" onClick={handleOpen}>
+              <MobileMenu className="header__menu-burger" />
+            </button>
+          )}
           {openModal ? <Navigation handleClose={handleClose} /> : ""}
         </header>
       ) : (
