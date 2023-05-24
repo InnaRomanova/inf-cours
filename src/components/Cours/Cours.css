@@ -1,15 +1,14 @@
-.navigation-list {
-
+.cours-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.navigation-list__block {
-
+.cours-list__item {
+    margin: 0 0 1.05rem 20px;
+    padding: 0;
 }
 
-.navigation-list__item {
-
-}
-
-.navigation-list__edit {
-    
+.cours-list__item:last-child {
+    margin-bottom: 1.45rem;
 }

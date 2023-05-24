@@ -1,7 +1,8 @@
 .propgramm {
     display: flex;
-    width: 820px;
-    height: 986px;
+    justify-content: center;
+    max-width: 820px;
+    min-height: 988px;
     left: 0px;
     top: 2px;
     background: #F2F2F2;

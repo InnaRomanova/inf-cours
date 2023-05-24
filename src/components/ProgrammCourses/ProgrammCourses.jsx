@@ -1,10 +1,10 @@
 import React from "react";
 import "./ProgrammCourses.css";
 
-function ProgrammCourses({isOpen, onClose, onAddCours}) {
+function ProgrammCourses({}) {
 
   return (
-   <div className="propgramm" isOpen={isOpen} onClose={onClose} onSubmit={onAddCours}>
+   <div className="propgramm">
     <div className="propgramm__container">
 
     </div>

@@ -23,7 +23,6 @@ function Navigation({}) {
           <li className="navigation__list-item">Контакты</li>
         </ul>
       </div>
-      {/* <button className="navigation__close-button" onClick={handleClose} /> */}
     </section>
   );
 }

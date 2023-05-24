@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import './VerticalArrow.css';
 
 export default function VerticalArrow({ onOpen }) {
   const [transform, setTransform] = useState(180);
@@ -13,6 +14,7 @@ export default function VerticalArrow({ onOpen }) {
 
   return (
     <svg
+    className="vetical"
       width="12"
       height="7"
       viewBox="0 0 12 7"
