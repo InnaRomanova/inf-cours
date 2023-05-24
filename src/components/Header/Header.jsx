@@ -11,12 +11,12 @@ import Navigation from "../Navigation/Navigation";
 function Header() {
   const matches = useMediaQuery("(max-width: 1108px)");
   const [openModal, setOpenModal] = useState(false);
-  const [show, setShow] = useState(false);
-  const handleShow = () => setShow(!show);
+  // const [show, setShow] = useState(false);
+  // const handleShow = () => setShow(!show);
 
-  const buttonMenuDisabled = { openModal }
-    ? "header__menu-button_disabled"
-    : "";
+  // const buttonMenuDisabled = { openModal }
+  //   ? "header__menu-button_disabled"
+  //   : "";
 
   function handleOpen() {
     setOpenModal(true);

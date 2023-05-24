@@ -8,18 +8,12 @@ function Become({ item, onAddCours }) {
     const [openModal, setOpenModal] = useState(false)
 
     function handleOpen() {
-        setOpenModal(true);
+        setOpenModal(!openModal);
     }
-
-    function handleClose() {
-        setOpenModal(false);
-    }
-
-    // {openModal ? <ProgrammCourses handleClose={handleClose} /> : ""}
-
 
     return (
-        <li className="become__list-item">
+        <> {!openModal ?
+        (<li className="become__list-item">
             <div className="become__item">
                 <h3 className="become__name">{title}</h3>
                 <div className="become__circle">{discount}</div></div>
@@ -59,10 +53,11 @@ function Become({ item, onAddCours }) {
             </div>
             <div className="become__buttons">
                 <button className="become__button-detailed" onClick={handleOpen}>Подробнее</button>
-                
                 <button className="become__button-signup">Записаться</button>
             </div>
-        </li>
+        </li>) : <ProgrammCourses />}
+        </>
+        
     )
 }
 export default Become;

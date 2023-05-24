@@ -66,7 +66,8 @@ function App({ }) {
                 isOpen={isCoursesPopupOpened}
                 onAddCours={handleAddCoursSubmit}
                 onClose={closePopup}
-                onCloseOverlay={closeByOverlay} />} >
+                // onCloseOverlay={closeByOverlay} 
+                />} >
             </Route>
           </Routes>
         </div>
