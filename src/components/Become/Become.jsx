@@ -3,7 +3,7 @@ import './Become.css';
 import ProgrammCourses from "../ProgrammCourses/ProgrammCourses";
 import { useState } from "react";
 
-function Become({ item, onAddCours }) {
+function Become({ item, onOpenPopup }) {
     const { title, text, image, discount, startPoint, duration } = item;
     const [openModal, setOpenModal] = useState(false)
 
@@ -12,10 +12,10 @@ function Become({ item, onAddCours }) {
     }
 
     return (
-        <> {!openModal ?
-        (<li className="become__list-item">
+        <> 
+        <li className="become__list-item">
             <div className="become__item">
-                <h3 className="become__name">{title}</h3>
+               <h3 className="become__name">{title}</h3>
                 <div className="become__circle">{discount}</div></div>
 
             <div className="become__kouch">
@@ -52,10 +52,10 @@ function Become({ item, onAddCours }) {
                 </div>
             </div>
             <div className="become__buttons">
-                <button className="become__button-detailed" onClick={handleOpen}>Подробнее</button>
+                <button className="become__button-detailed" onClick={onOpenPopup}>Подробнее</button>
                 <button className="become__button-signup">Записаться</button>
             </div>
-        </li>) : <ProgrammCourses />}
+        </li>
         </>
         
     )

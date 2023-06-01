@@ -26,8 +26,9 @@
 }
 
 .become__item {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    justify-content: space-between;
 }
 
 .become__name {
@@ -258,10 +259,10 @@
 }
 
 @media screen and (max-width: 1845px) {
-    .become__item {
+    /* .become__item {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-    }
+    } */
 
     .become__text {
         max-width: 100%;
@@ -286,8 +287,8 @@
     }
 
     .become__item {
-        display: flex;
-        justify-content: space-between;
+        /* display: flex;
+        justify-content: space-between; */
         margin-bottom: 20px;
     }
 
