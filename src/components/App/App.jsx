@@ -54,9 +54,10 @@ function App({ }) {
               element={
                 <>
                   <Header />
-                  <Main 
-                  list={list}
-                  setList={setList}/>
+                  <Main
+                    list={list}
+                    setList={setList}
+                    onAddCours={handleAddCoursSubmit} />
                   <Footer />
                 </>
               }
@@ -64,10 +65,10 @@ function App({ }) {
             <Route path="/courses" element={
               <ProgrammCourses component={ProgrammCourses}
                 isOpen={isCoursesPopupOpened}
-                onAddCours={handleAddCoursSubmit}
+
                 onClose={closePopup}
-                // onCloseOverlay={closeByOverlay} 
-                />} >
+              // onCloseOverlay={closeByOverlay} 
+              />} >
             </Route>
           </Routes>
         </div>
