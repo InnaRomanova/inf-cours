@@ -1,15 +1,14 @@
 import React from "react";
 import "./ProgrammCourses.css";
 
-function ProgrammCourses({ onOpenPopup }) {
-  // const [isPopupOpened, setIsPopupOpened] = useState(false);
+function ProgrammCourses({ isOpen, onCLose }) {
 
-  // const handlePopupClick = () => {
-  //   onOpenPopup(!setIsPopupOpened);
-  // }
+  function handleSubmit(e) {
+    e.preventDefault();
+}
 
   return (
-    <div className="propgramm">
+    <div className="propgramm" onSubmit={handleSubmit} isOpen={isOpen} onClose={onCLose}>
       <div className="propgramm__container">
         <div className="programm__block">
           <button className="button__close" />

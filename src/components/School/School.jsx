@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import './School.css';
 import vector from '../../images/Vector.svg';
 import scrollLeft from '../../images/arrow_left.svg';
@@ -7,6 +7,11 @@ import imageMan from '../../images/photo_person_man.svg';
 import imageWoman from '../../images/photo_person_woman.svg';
 
 function School() {
+    const [openUser, setOpenUser] = useState(false);
+
+    function handleOpen() {
+      setOpenUser(!openUser);
+    }
 
     return (
         <section className="school">
@@ -23,8 +28,8 @@ function School() {
             </div>
             
             <div className="school__staff">
-                <div className="school__left"><a href="#" className="school__scroll">
-                    <img className="school__scroll-image" alt="стрелка" src={scrollLeft} /></a></div>
+                <div className="school__left" onClick={handleOpen}><a href="#" className="school__scroll">
+                    <img className="school__scroll-image" alt="стрелка" src={scrollLeft} onOpen={openUser} /></a></div>
                 <ul className="school__user">
                     <li className="school__user-item">
                         <img className="school__image" src={imageMan} />

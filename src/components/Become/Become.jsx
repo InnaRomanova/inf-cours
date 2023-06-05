@@ -52,7 +52,7 @@ function Become({ item, onOpenPopup }) {
                 </div>
             </div>
             <div className="become__buttons">
-                <button className="become__button-detailed" onClick={onOpenPopup}>Подробнее</button>
+                <button className="become__button-detailed" onClick={ProgrammCourses}>Подробнее</button>
                 <button className="become__button-signup">Записаться</button>
             </div>
         </li>
