@@ -1,7 +1,7 @@
 import React from "react";
 import "./Cours.css";
 
-function Cours({}) {
+function Cours() {
   return (
     <ul className="cours-list">
       <li className="cours-list__item">Управленческий коучинг</li>
