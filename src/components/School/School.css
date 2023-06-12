@@ -50,10 +50,9 @@
 .school__staff {
     margin: 110px 0 0;
     padding: 0;
-    display: flex;
 }
 
-.school__left {
+.school__left .school__right {
     margin: 0;
     padding: 0;
     display: flex;
@@ -199,7 +198,7 @@
         margin-top: 370px;
     }
 
-    .school__left {
+    .school__left .school__right {
         align-items: flex-end;
         height: 190px;
     }
