@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useMediaQuery } from "usehooks-ts";
 import "./School.css";
 import vector from "../../images/Vector.svg";
@@ -10,8 +10,32 @@ import CarouselSlider from "react-carousel-slider";
 
 function School() {
   const matches = useMediaQuery("(max-width: 1350px)");
+  const [end, setEnd] = useState(0);
+  const SHOW = 1;
   const user = document.querySelector(".school__scroll");
   const [list, setList] = useState(false);
+
+  useEffect(() => {
+    shownCount();
+  }, []);
+
+  function shownCount() {
+    const display = window.innerWidth;
+    if (display > 1450) {
+      setEnd(3);
+    } else if (display > 1350) {
+      setEnd(2);
+    } else if (display < 1350) {
+      setEnd(1);
+    }
+  }
+
+  function showMore() {
+    const display = window.innerWidth;
+    if (display > 1024) {
+      setEnd(end + SHOW);
+    }
+  }
 
   const arrReviews = [
     {
@@ -34,12 +58,6 @@ function School() {
     },
   ];
 
-  let itemsStyle = {
-    margin: "0 41px 0 0",
-    padding: "0",
-    display: "flex",
-  };
-
   let rBtnCpnt = (
     <div className="school__right">
       <a href="#" className="school__scroll school__scroll_right">
@@ -48,15 +66,19 @@ function School() {
     </div>
   );
 
+  const reviews = [];
+
   let lBtnCpnt = (
     <div className="school__left">
-      <a href="#" className="school__scroll school__scroll_left">
+      <a
+        href="#"
+        className="school__scroll school__scroll_left"
+        // onClick={showMore}
+      >
         <img className="school__scroll-image" alt="стрелка" src={scrollLeft} />
       </a>
     </div>
   );
-
-  const reviews = [];
 
   arrReviews.forEach((rewiew, index) => {
     reviews.push(
@@ -72,35 +94,20 @@ function School() {
     );
   });
 
-  let reviewsCard = (
-    <CarouselSlider
-      sliderBoxStyle={{
-        height: "450px",
-        width: "80%",
-      }}
-      accEle={{ dots: false }}
-      slideCpnts={reviews}
-      itemsStyle={itemsStyle}
-      buttonSetting={{ placeOn: "middle-outside" }}
-      rBtnCpnt={rBtnCpnt}
-      lBtnCpnt={lBtnCpnt}
-    />
-  );
+  // function clickScroll() {
+  //   const scrollLeft = document
+  //     .querySelector(".school__scroll_left")
+  //     .addEventListener("click", function (e) {
+  //       e.preventDefault();
+  //       const scrollRight = document
+  //         .querySelector(".school__scroll_right")
+  //         .addEventListener("click", function (e) {
+  //           e.preventDefault();
+  //         });
+  //     });
+  // }
 
-  /*
-  function handleList() {
-    setList(!list);
-    document.addEventListener("click", function () {
-      return arrReviews.userMan;
-    });
-  }
-  */
-
-  //   function handleOpen(e) {
-  //     e.preventDefault();
-
-  //     {!matches ? ({ arr.userWoman } && { arr.userMan }) : matches};
-  //   }
+  // clickScroll();
 
   return (
     <>
@@ -126,16 +133,12 @@ function School() {
               </li>
             </ul>
           </div>
-
           <div className="school__staff">
             <div className="school__user">
-              <div style={{ position: "relative", margin: "0 auto" }}>
-                {reviewsCard}
-              </div>
+              {lBtnCpnt}
+              {reviews}
+              {rBtnCpnt}
             </div>
-          </div>
-          <div className="school__staff">
-            <div className="school__user">{reviews}</div>
           </div>
         </div>
       </section>
