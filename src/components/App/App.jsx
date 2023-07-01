@@ -8,7 +8,7 @@ import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
 import ProgrammCourses from "../ProgrammCourses/ProgrammCourses";
 
-function App({ }) {
+function App({}) {
   const [currentUser, setCurrentUser] = useState({});
   const [isCoursesPopupOpened, setIsCoursesPopupOpened] = useState(false);
   const [list, setList] = useState([]);
@@ -21,27 +21,26 @@ function App({ }) {
 
   const closePopup = () => {
     setIsCoursesPopupOpened(false);
-  }
+  };
 
   const closeByEsc = (e) => {
-    if (e.key === 'Escape') {
-      closePopup()
+    if (e.key === "Escape") {
+      closePopup();
     }
-  }
+  };
 
   const closeByOverlay = (e) => {
-    if (e.target.classList.contains('.navigation')) {
-      closePopup()
+    if (e.target.classList.contains(".navigation")) {
+      closePopup();
     }
-  }
+  };
 
   useEffect(() => {
     if (isCoursesPopupOpened) {
-      document.addEventListener('keydown', closeByEsc);
+      document.addEventListener("keydown", closeByEsc);
     }
-    return () => (document.removeEventListener('keydown', closeByEsc));
+    return () => document.removeEventListener("keydown", closeByEsc);
   }, [isCoursesPopupOpened]);
-
 
   return (
     <div className="page">
@@ -57,19 +56,23 @@ function App({ }) {
                   <Main
                     list={list}
                     setList={setList}
-                    onAddCours={handleAddCoursSubmit} />
+                    onAddCours={handleAddCoursSubmit}
+                  />
                   <Footer />
                 </>
               }
             ></Route>
-            <Route path="/courses" element={
-              <ProgrammCourses component={ProgrammCourses}
-                isOpen={isCoursesPopupOpened}
-
-                onClose={closePopup}
-              // onCloseOverlay={closeByOverlay} 
-              />} >
-            </Route>
+            <Route
+              path="/courses"
+              element={
+                <ProgrammCourses
+                  component={ProgrammCourses}
+                  isOpen={isCoursesPopupOpened}
+                  onClose={closePopup}
+                  // onCloseOverlay={closeByOverlay}
+                />
+              }
+            ></Route>
           </Routes>
         </div>
       </CurrentUserContext.Provider>

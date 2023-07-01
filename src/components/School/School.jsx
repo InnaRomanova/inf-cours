@@ -7,6 +7,7 @@ import scrollRight from "../../images/arrow_right.svg";
 import imageMan from "../../images/photo_person_man.svg";
 import imageWoman from "../../images/photo_person_woman.svg";
 import CarouselSlider from "react-carousel-slider";
+import CustomSwiper from "../elements/CustomSwiper";
 
 function School() {
   const matches = useMediaQuery("(max-width: 1350px)");
@@ -60,9 +61,9 @@ function School() {
 
   let rBtnCpnt = (
     <div className="school__right">
-      <a href="#" className="school__scroll school__scroll_right">
-        <img className="school__scroll-image" alt="стрелка" src={scrollRight} />
-      </a>
+      {/* <a href="#" className="school__scroll school__scroll_right"> */}
+      <img className="school__scroll-image" alt="стрелка" src={scrollRight} />
+      {/* </a> */}
     </div>
   );
 
@@ -70,13 +71,9 @@ function School() {
 
   let lBtnCpnt = (
     <div className="school__left">
-      <a
-        href="#"
-        className="school__scroll school__scroll_left"
-        // onClick={showMore}
-      >
-        <img className="school__scroll-image" alt="стрелка" src={scrollLeft} />
-      </a>
+      {/* <a href="#" className="school__scroll school__scroll_left"> */}
+      <img className="school__scroll-image" alt="стрелка" src={scrollLeft} />
+      {/* </a> */}
     </div>
   );
 
@@ -93,21 +90,6 @@ function School() {
       </>
     );
   });
-
-  // function clickScroll() {
-  //   const scrollLeft = document
-  //     .querySelector(".school__scroll_left")
-  //     .addEventListener("click", function (e) {
-  //       e.preventDefault();
-  //       const scrollRight = document
-  //         .querySelector(".school__scroll_right")
-  //         .addEventListener("click", function (e) {
-  //           e.preventDefault();
-  //         });
-  //     });
-  // }
-
-  // clickScroll();
 
   return (
     <>
@@ -135,9 +117,7 @@ function School() {
           </div>
           <div className="school__staff">
             <div className="school__user">
-              {lBtnCpnt}
-              {reviews}
-              {rBtnCpnt}
+              <CustomSwiper swiperArray={arrReviews} />
             </div>
           </div>
         </div>
