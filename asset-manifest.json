@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/inf-cours/static/css/main.76485d4f.css",
-    "main.js": "/inf-cours/static/js/main.f4801c40.js",
+    "main.css": "/inf-cours/static/css/main.2e997ffd.css",
+    "main.js": "/inf-cours/static/js/main.d00e5ac9.js",
     "static/media/priz.png": "/inf-cours/static/media/priz.ee64edffe95bed80684e.png",
     "static/media/school-fon.png": "/inf-cours/static/media/school-fon.86ded61572cc15dff818.png",
     "static/media/fon1.png": "/inf-cours/static/media/fon1.a6e9e287056e3725e70e.png",
@@ -31,11 +31,11 @@
     "static/media/arrow_right.svg": "/inf-cours/static/media/arrow_right.1897d09ac21f2c0d7aa238d8890a2e47.svg",
     "static/media/close-button-menu.svg": "/inf-cours/static/media/close-button-menu.2f6ba0201609b41c6f0c.svg",
     "static/media/icon_arrow.svg": "/inf-cours/static/media/icon_arrow.514e865f3f7d2152223578ef20e6ba4d.svg",
-    "main.76485d4f.css.map": "/inf-cours/static/css/main.76485d4f.css.map",
-    "main.f4801c40.js.map": "/inf-cours/static/js/main.f4801c40.js.map"
+    "main.2e997ffd.css.map": "/inf-cours/static/css/main.2e997ffd.css.map",
+    "main.d00e5ac9.js.map": "/inf-cours/static/js/main.d00e5ac9.js.map"
   },
   "entrypoints": [
-    "static/css/main.76485d4f.css",
-    "static/js/main.f4801c40.js"
+    "static/css/main.2e997ffd.css",
+    "static/js/main.d00e5ac9.js"
   ]
 }
