@@ -1,43 +1,11 @@
-import React, { useState, useEffect } from "react";
-import { useMediaQuery } from "usehooks-ts";
+import React from "react";
 import "./School.css";
 import vector from "../../images/Vector.svg";
-import scrollLeft from "../../images/arrow_left.svg";
-import scrollRight from "../../images/arrow_right.svg";
 import imageMan from "../../images/photo_person_man.svg";
 import imageWoman from "../../images/photo_person_woman.svg";
-import CarouselSlider from "react-carousel-slider";
 import CustomSwiper from "../elements/CustomSwiper";
 
 function School() {
-  const matches = useMediaQuery("(max-width: 1350px)");
-  const [end, setEnd] = useState(0);
-  const SHOW = 1;
-  const user = document.querySelector(".school__scroll");
-  const [list, setList] = useState(false);
-
-  useEffect(() => {
-    shownCount();
-  }, []);
-
-  function shownCount() {
-    const display = window.innerWidth;
-    if (display > 1450) {
-      setEnd(3);
-    } else if (display > 1350) {
-      setEnd(2);
-    } else if (display < 1350) {
-      setEnd(1);
-    }
-  }
-
-  function showMore() {
-    const display = window.innerWidth;
-    if (display > 1024) {
-      setEnd(end + SHOW);
-    }
-  }
-
   const arrReviews = [
     {
       id: 1,
@@ -59,23 +27,7 @@ function School() {
     },
   ];
 
-  let rBtnCpnt = (
-    <div className="school__right">
-      {/* <a href="#" className="school__scroll school__scroll_right"> */}
-      <img className="school__scroll-image" alt="стрелка" src={scrollRight} />
-      {/* </a> */}
-    </div>
-  );
-
   const reviews = [];
-
-  let lBtnCpnt = (
-    <div className="school__left">
-      {/* <a href="#" className="school__scroll school__scroll_left"> */}
-      <img className="school__scroll-image" alt="стрелка" src={scrollLeft} />
-      {/* </a> */}
-    </div>
-  );
 
   arrReviews.forEach((rewiew, index) => {
     reviews.push(
