@@ -13,6 +13,7 @@ function App({}) {
   const [isCoursesPopupOpened, setIsCoursesPopupOpened] = useState(false);
   const [list, setList] = useState([]);
   const [selectCard, setSelectCard] = useState({});
+  const [openModal, setOpenModal] = useState(true);
 
   function handleAddCoursSubmit(card) {
     setSelectCard(card);
@@ -67,9 +68,8 @@ function App({}) {
               element={
                 <ProgrammCourses
                   component={ProgrammCourses}
-                  isOpen={isCoursesPopupOpened}
-                  onClose={closePopup}
-                  // onCloseOverlay={closeByOverlay}
+                  active={openModal}
+                  setActive={setOpenModal}
                 />
               }
             ></Route>
