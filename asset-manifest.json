@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/inf-cours/static/css/main.f13eb5aa.css",
-    "main.js": "/inf-cours/static/js/main.e4051df7.js",
+    "main.css": "/inf-cours/static/css/main.783e4389.css",
+    "main.js": "/inf-cours/static/js/main.6a715df0.js",
     "static/media/priz.png": "/inf-cours/static/media/priz.ee64edffe95bed80684e.png",
     "static/media/school-fon.png": "/inf-cours/static/media/school-fon.86ded61572cc15dff818.png",
     "static/media/fon1.png": "/inf-cours/static/media/fon1.a6e9e287056e3725e70e.png",
@@ -31,11 +31,11 @@
     "static/media/arrow_right.svg": "/inf-cours/static/media/arrow_right.1897d09ac21f2c0d7aa238d8890a2e47.svg",
     "static/media/close-button-menu.svg": "/inf-cours/static/media/close-button-menu.2f6ba0201609b41c6f0c.svg",
     "static/media/icon_arrow.svg": "/inf-cours/static/media/icon_arrow.514e865f3f7d2152223578ef20e6ba4d.svg",
-    "main.f13eb5aa.css.map": "/inf-cours/static/css/main.f13eb5aa.css.map",
-    "main.e4051df7.js.map": "/inf-cours/static/js/main.e4051df7.js.map"
+    "main.783e4389.css.map": "/inf-cours/static/css/main.783e4389.css.map",
+    "main.6a715df0.js.map": "/inf-cours/static/js/main.6a715df0.js.map"
   },
   "entrypoints": [
-    "static/css/main.f13eb5aa.css",
-    "static/js/main.e4051df7.js"
+    "static/css/main.783e4389.css",
+    "static/js/main.6a715df0.js"
   ]
 }
