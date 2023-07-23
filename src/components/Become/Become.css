@@ -22,7 +22,7 @@
     /* max-width: 580px; */
     border-radius: 10px;
     min-height: 521px;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .become__item {
@@ -259,10 +259,6 @@
 }
 
 @media screen and (max-width: 1845px) {
-    /* .become__item {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    } */
 
     .become__text {
         max-width: 100%;

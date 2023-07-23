@@ -3,9 +3,18 @@ import "./Become.css";
 import ProgrammCourses from "../ProgrammCourses/ProgrammCourses";
 import { useState } from "react";
 
-function Become({ item, active, setActive, onOpenPopup }) {
+function Become({ item }) {
   const { title, text, image, discount, startPoint, duration } = item;
   const [openModal, setOpenModal] = useState(true);
+  const [active, setActive] = useState(false);
+
+  function handleOpen() {
+    setActive(true);
+  }
+
+  function handleClose() {
+    setActive(false);
+  }
 
   return (
     <>
@@ -52,12 +61,10 @@ function Become({ item, active, setActive, onOpenPopup }) {
           </div>
         </div>
         <div className="become__buttons">
-          <button
-            className="become__button-detailed"
-            onClick={() => setActive(true)}
-          >
+          <button className="become__button-detailed" onClick={handleOpen}>
             Подробнее
           </button>
+          {active ? <ProgrammCourses handleClose={handleClose} /> : ""}
           <button className="become__button-signup">Записаться</button>
         </div>
       </li>

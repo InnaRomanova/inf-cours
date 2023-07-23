@@ -3,8 +3,6 @@ import "./ProgrammCourses.css";
 import { useState } from "react";
 
 function ProgrammCourses({ active, setActive }) {
-  // const [active, setActive] = useState(false);
-
   return (
     <div
       className={active ? "propgramm  active" : "propgramm"}
