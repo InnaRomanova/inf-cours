@@ -55,7 +55,7 @@
     margin: 0 20px 0;
     padding: 0;
     max-width: 700px;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 16px;
     line-height: 25px;
 }
@@ -73,6 +73,80 @@
 }
 
 .programm_start {
+    margin: 0;
+    padding: 0;
+}
+
+.programm__section {
+    margin: 0;
+    padding: 40px 20px 20px;
+}
+
+.programm__section-left {
+    margin: 0;
+    padding: 0;
+    max-width: 580px;
+}
+
+.programm__training-title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30.48px;
+    margin: 0 0 20px;
+    padding: 0;
+
+}
+
+.programm__training-text {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.programm__image {
+    margin: 0;
+    padding: 0;
+}
+
+.programm__image {
+    margin: 20px 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.programm__link {
+    margin: 0;
+    padding: 0;
+}
+
+.programm__side {
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.programm__image-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.programm__icon {
+    width: 100px;
+    min-height: 125px;
+    margin: 0;
+    padding: 0;
+}
+
+.program__marketing {
     margin: 0;
     padding: 0;
 }

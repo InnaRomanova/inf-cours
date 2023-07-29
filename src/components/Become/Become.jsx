@@ -5,7 +5,6 @@ import { useState } from "react";
 
 function Become({ item }) {
   const { title, text, image, discount, startPoint, duration } = item;
-  const [openModal, setOpenModal] = useState(true);
   const [active, setActive] = useState(false);
 
   function handleOpen() {

@@ -1,6 +1,12 @@
 import React from "react";
 import "./ProgrammCourses.css";
-import { useState } from "react";
+import leftVector from "../../images/leftVector.svg";
+import rigthVector from "../../images/rightVector.svg";
+import kouch from "../../images/kouch.png";
+import android from "../../images/Android.png";
+import digital from "../../images/Digital.png";
+import softSkills from "../../images/SoftSkills.png";
+import Become from "../Become/Become";
 
 function ProgrammCourses({ active, setActive }) {
   return (
@@ -45,24 +51,44 @@ function ProgrammCourses({ active, setActive }) {
             </div>
             <div className="programm__image">
               <a className="programm__link" href="#">
-                <img className="programm__side" src="" alt="стрелка" />
+                <img
+                  className="programm__side"
+                  src={leftVector}
+                  alt="стрелка налево"
+                />
               </a>
               <ul className="programm__image-list">
                 <li className="programm__image-list_item">
-                  <img className="programm__icon" src="" alt="картинка" />
+                  <img className="programm__icon" src={kouch} alt="картинка" />
                 </li>
                 <li className="programm__image-list_item">
-                  <img className="programm__icon" src="" alt="картинка" />
+                  <img
+                    className="programm__icon"
+                    src={android}
+                    alt="картинка"
+                  />
                 </li>
                 <li className="programm__image-list_item">
-                  <img className="programm__icon" src="" alt="картинка" />
+                  <img
+                    className="programm__icon"
+                    src={digital}
+                    alt="картинка"
+                  />
                 </li>
                 <li className="programm__image-list_item">
-                  <img className="programm__icon" src="" alt="картинка" />
+                  <img
+                    className="programm__icon"
+                    src={softSkills}
+                    alt="картинка"
+                  />
                 </li>
               </ul>
               <a className="programm__link" href="#">
-                <img className="programm__side" src="" alt="стрелка" />
+                <img
+                  className="programm__side"
+                  src={rigthVector}
+                  alt="стрелка направо"
+                />
               </a>
             </div>
 
