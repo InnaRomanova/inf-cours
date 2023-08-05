@@ -109,7 +109,7 @@
 }
 
 .programm__image {
-    margin: 20px 0;
+    margin: 10px 0 7px;
     padding: 0;
     display: flex;
     justify-content: space-between;
@@ -129,7 +129,7 @@
 }
 
 .programm__image-list {
-    margin: 0;
+    margin: 10px 0 3px;
     padding: 0;
     list-style: none;
     display: flex;
@@ -137,21 +137,66 @@
     gap: 24px;
 }
 
-.programm__icon {
-    width: 100px;
-    min-height: 125px;
+.programm__image-list_item {
     margin: 0;
     padding: 0;
+}
+
+.programm__icon {
+    width: 100px;
+    height: 125px;
+    margin: 0;
+    padding: 0;
+}
+
+.programm__marketing {
+    margin: 0 0 10px 0;
+    padding: 15px 0 10px 20px;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.programm__marketing-container {
+    margin: 0 0 32px;
+    padding: 0;
+
 }
 
 .programm__marketing-title {
     margin: 0;
     padding: 0;
+    max-width: 475px;
+    height: 26px;
+    /* background: #FFFFFF; */
+
+}
+
+.programm__close-block {
+    margin: 0;
+    padding: 0;
+    background-image: url(../../images/icon-closed-program.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    width: 30px;
+    height: 30px;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
 
 .program__marketing {
-    margin: 26px 20px 20px;
+    margin: 0;
     padding: 0;
+    box-shadow: 0px 3px 4px 0px #99999940;
+    background: #FFFFFF;
+    width: 580px;
+    height: 288px;
+    border-radius: 10px;
+
+
 }
 
 .marketing__list {
@@ -162,5 +207,20 @@
 
 .marketing__item {
     margin: 0 0 16px;
+    padding: 0;
+}
+
+.programm_digital {
+    margin: 0;
+    padding: 0;
+}
+
+.programm__marketing-title {
+    margin: 0;
+    padding: 0;
+}
+
+.programm__add {
+    margin: 0;
     padding: 0;
 }
