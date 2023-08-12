@@ -97,7 +97,6 @@ function ProgrammCourses({ active, setActive }) {
                 <h4 className="programm__marketing-title">
                   Основы интернет-маркетинга
                 </h4>
-
                 <button className="programm__close-block" />
               </div>
               <ul className="marketing__list">
@@ -117,23 +116,35 @@ function ProgrammCourses({ active, setActive }) {
                 </li>
               </ul>
             </div>
-            <div className="programm_digital">
-              <h4 className="programm__marketing-title">
-                Стратегия digital-продвижения
-              </h4>
-              <button className="programm__add" />
+
+            <div className="programm__marketing section">
+              <div className="programm__marketing-container">
+                <h4 className="programm__marketing-title">
+                  Стратегия digital-продвижения
+                </h4>
+                <button className="programm__close-block programm__list_open" />
+              </div>
             </div>
-            <div className="programm_digital">
-              <h4 className="programm__marketing-title">Сайты и приложения</h4>
-              <button className="programm__add" />
+
+            <div className="programm__marketing">
+              <div className="programm__marketing-container">
+                <h4 className="programm__marketing-title">
+                  Сайты и приложения
+                </h4>
+                <button className="programm__close-block programm__list_open" />
+              </div>
             </div>
-            <div className="programm_digital">
-              <h4 className="programm__marketing-title">
-                Аналитика для интернет-маркетинга
-              </h4>
-              <button className="programm__add" />
+
+            <div className="programm__marketing">
+              <div className="programm__marketing-container">
+                <h4 className="programm__marketing-title">
+                  Аналитика для интернет-маркетинга
+                </h4>
+                <button className="programm__close-block programm__list_open" />
+              </div>
             </div>
           </div>
+
           <div className="programm__section-right">
             <div className="programm__inf">
               <div className="become__circle">-24%</div>
