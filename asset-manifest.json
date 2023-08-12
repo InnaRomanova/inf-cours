@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/inf-cours/static/css/main.783e4389.css",
-    "main.js": "/inf-cours/static/js/main.6a715df0.js",
+    "main.css": "/inf-cours/static/css/main.0b86f0f3.css",
+    "main.js": "/inf-cours/static/js/main.3658bd84.js",
     "static/media/priz.png": "/inf-cours/static/media/priz.ee64edffe95bed80684e.png",
     "static/media/school-fon.png": "/inf-cours/static/media/school-fon.86ded61572cc15dff818.png",
     "static/media/fon1.png": "/inf-cours/static/media/fon1.a6e9e287056e3725e70e.png",
@@ -22,7 +22,11 @@
     "static/media/Digital.png": "/inf-cours/static/media/Digital.03229b7c34c4dc191551.png",
     "static/media/SoftSkills.png": "/inf-cours/static/media/SoftSkills.b7530cd8876933038903.png",
     "static/media/icon_viber.svg": "/inf-cours/static/media/icon_viber.47b596f10cb1cc9a26212c0096ffb970.svg",
+    "static/media/leftVector.svg": "/inf-cours/static/media/leftVector.f268e1854db75ee6495a66a899f1d8d6.svg",
+    "static/media/rightVector.svg": "/inf-cours/static/media/rightVector.8b11a02e6a9114f79ab6ece1f21960d0.svg",
     "static/media/icon_whatsapp.svg": "/inf-cours/static/media/icon_whatsapp.f7456bd2a18cdd78691a6fc86ed3920d.svg",
+    "static/media/icon-closed-program.svg": "/inf-cours/static/media/icon-closed-program.f3d6b3dbaf2fc22a7662.svg",
+    "static/media/programm-list-open.svg": "/inf-cours/static/media/programm-list-open.4d5761ede7ec1c9ffb5e.svg",
     "index.html": "/inf-cours/index.html",
     "static/media/Vector.svg": "/inf-cours/static/media/Vector.7ef8365f06b5e97b070e698fb9893419.svg",
     "static/media/icon_telegram.svg": "/inf-cours/static/media/icon_telegram.0fc8f14927fa53fb11efdb154cfc150f.svg",
@@ -31,11 +35,11 @@
     "static/media/arrow_right.svg": "/inf-cours/static/media/arrow_right.1897d09ac21f2c0d7aa238d8890a2e47.svg",
     "static/media/close-button-menu.svg": "/inf-cours/static/media/close-button-menu.2f6ba0201609b41c6f0c.svg",
     "static/media/icon_arrow.svg": "/inf-cours/static/media/icon_arrow.514e865f3f7d2152223578ef20e6ba4d.svg",
-    "main.783e4389.css.map": "/inf-cours/static/css/main.783e4389.css.map",
-    "main.6a715df0.js.map": "/inf-cours/static/js/main.6a715df0.js.map"
+    "main.0b86f0f3.css.map": "/inf-cours/static/css/main.0b86f0f3.css.map",
+    "main.3658bd84.js.map": "/inf-cours/static/js/main.3658bd84.js.map"
   },
   "entrypoints": [
-    "static/css/main.783e4389.css",
-    "static/js/main.6a715df0.js"
+    "static/css/main.0b86f0f3.css",
+    "static/js/main.3658bd84.js"
   ]
 }
