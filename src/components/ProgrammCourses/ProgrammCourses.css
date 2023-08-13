@@ -277,12 +277,10 @@
     align-items: center;
 }
 
-.become__circle {
-    margin: 0;
-    padding: 0;
+.become__circle_active {
     position: absolute;
-    top: -20px;
     right: 0;
+    top: -20px;
 }
 
 .programm__month {

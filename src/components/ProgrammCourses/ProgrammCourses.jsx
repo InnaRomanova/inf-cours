@@ -148,7 +148,7 @@ function ProgrammCourses({ active, setActive }) {
           <div className="programm__section-right">
             <div className="programm__right-container">
               <div className="programm__inf">
-                <div className="become__circle">-24%</div>
+                <div className="become__circle become__circle_active">-24%</div>
                 <div className="programm__month">
                   <p className="programm__months">48 </p>
                   <span className="programm__price">BYN / мес.</span>

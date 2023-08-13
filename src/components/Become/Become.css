@@ -299,11 +299,6 @@
         line-height: 125%;
     }
 
-    .become__circle {
-        height: 40px;
-        width: 40px;
-    }
-
     .become__kouch {
         display: flex;
         flex-direction: column;
