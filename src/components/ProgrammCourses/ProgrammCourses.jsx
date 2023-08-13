@@ -6,7 +6,7 @@ import kouch from "../../images/kouch.png";
 import android from "../../images/Android.png";
 import digital from "../../images/Digital.png";
 import softSkills from "../../images/SoftSkills.png";
-import Become from "../Become/Become";
+import "../Navigation/Navigation.css";
 
 function ProgrammCourses({ active, setActive }) {
   return (
@@ -19,8 +19,8 @@ function ProgrammCourses({ active, setActive }) {
         onClick={(e) => e.stopPropagation()}
       >
         <div className="programm__block">
-          <button className="button__close" />
           <h3 className="programm__title">Digital-маркетинг</h3>
+          <button className="programm__close-button" />
           <p className="programm__text">
             Курс по интернет-меркетингу, SMM, контекстной и таргетированной
             рекламе, копирайту, SEO и PR. На курсах преподают ведущие эксперты
@@ -146,27 +146,33 @@ function ProgrammCourses({ active, setActive }) {
           </div>
 
           <div className="programm__section-right">
-            <div className="programm__inf">
-              <div className="become__circle">-24%</div>
-              <div className="programm__month">
-                <p className="programm__months">48 </p>
-                <span className="programm__price">BYN / мес.</span>
+            <div className="programm__right-container">
+              <div className="programm__inf">
+                <div className="become__circle">-24%</div>
+                <div className="programm__month">
+                  <p className="programm__months">48 </p>
+                  <span className="programm__price">BYN / мес.</span>
+                </div>
+                <span className="become__price-number">
+                  Рассрочка на 24 месяца
+                </span>
               </div>
-              <span className="become__price-number">
-                Рассрочка на 24 месяца
-              </span>
+              <div className="programm__discount">
+                <div className="programm__discount-money">
+                  <h4 className="become__money-block">
+                    <del>2 387</del>
+                  </h4>
+                  <span className="become__price">BYN </span>
+                </div>
+                <div className="programm__monthly">
+                  <h3 className="become__monthly-block">1 984</h3>
+                  <span className="become__prices">BYN</span>
+                </div>
+              </div>
             </div>
-            <div className="become__right">
-              <div className="become__money">
-                <h4 className="become__money-block">2 387</h4>
-                <span className="become__price">BYN </span>
-              </div>
-              <div className="become__monthly">
-                <h3 className="become__monthly-block">1 984</h3>
-                <span className="become__prices">BYN</span>
-              </div>
-            </div>
-            <button className="programm__btn-sign">Записаться</button>
+            <button className="become__button-signup programm__btn-module">
+              Записаться
+            </button>
           </div>
         </div>
       </div>

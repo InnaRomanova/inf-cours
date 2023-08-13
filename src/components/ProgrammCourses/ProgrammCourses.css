@@ -32,11 +32,12 @@
 
 .programm__block {
     margin: 0;
-    padding: 0;
+    padding: 20px 0 0;
     background: #484848;
     color: #FFFFFF;
     height: 200px;
     border-radius: 10px;
+    position: relative;
 }
 
 .programm__title {
@@ -47,6 +48,22 @@
     font-size: 32px;
     line-height: 45px;
 }
+
+.programm__close-button {
+    margin: 25px 22px 0 0;
+    padding: 0;
+    background-image: url(../../images/close-button-menu.svg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-color: transparent;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: 0;
+    right: 0;
+}
+
 
 .programm__text {
     margin: 0 20px 0;
@@ -180,12 +197,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: inherit;
+    background-color: transparent;
     width: 30px;
     height: 30px;
     border: none;
     position: absolute;
     right: 14px;
     top: 10px;
+}
+
+
+.programm__close-button:hover,
+.programm__close-block:hover,
+.programm__side:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
 
 
@@ -222,4 +248,97 @@
 .marketing__item:last-child {
     padding-bottom: 25px;
     margin-bottom: 0;
+}
+
+.programm__section-right {
+    margin: 0 0 0 20px;
+    padding: 0;
+    max-width: 180px;
+    position: relative;
+
+
+}
+
+.programm__right-container {
+    width: 180px;
+    height: 186px;
+    top: 30px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px 0px #99999940;
+
+}
+
+.programm__inf {
+    margin: 10px 0 0;
+    padding: 31px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.become__circle {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+
+.programm__month {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: revert;
+}
+
+.programm__months {
+    margin: 0;
+    padding: 0;
+    width: 28px;
+    height: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+.programm__price {
+    margin: 3px 0 0;
+    padding: 0;
+    /* width: 74px; */
+    height: 19px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.programm__discount {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.programm__discount-money {
+    margin: 23px 0 0;
+    padding: 0;
+    display: flex;
+}
+
+.programm__monthly {
+    margin: 4px 0 0;
+    padding: 0;
+    display: flex;
+}
+
+.programm__btn-module {
+    width: 180px;
+    margin: 20px 0 0;
 }
