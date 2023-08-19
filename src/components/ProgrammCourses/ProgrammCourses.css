@@ -13,6 +13,7 @@
     box-shadow: 0px 3px 4px rgba(255, 255, 255, 0.25), 0px -3px 4px rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     transition: 0.5s;
+    display: flex;
 }
 
 .propgramm.active {
@@ -23,7 +24,7 @@
 .propgramm__container.active {
     padding: 20px;
     border-radius: 2px;
-    background-color: white;
+    background-color: #F2F2F2;
     width: 100%;
     height: 250px;
     margin: 0;
@@ -44,7 +45,7 @@
     margin: 0 0 20px 20px;
     padding: 0;
     max-width: 700px;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 32px;
     line-height: 45px;
 }
@@ -339,4 +340,290 @@
 .programm__btn-module {
     width: 180px;
     margin: 20px 0 0;
+}
+
+@media screen and (max-width: 844px) {
+    .propgramm {
+        max-width: 360px;
+        min-height: 2354px;
+    }
+
+    .propgramm__container.active {
+        padding: 20px;
+        width: 100%;
+        height: 250px;
+    }
+
+    .programm__block {
+        margin: 0;
+        padding: 20px 0 0;
+        height: 200px;
+    }
+
+    .programm__block {
+        margin: 0;
+        padding: 20px 0 0;
+        height: 200px;
+    }
+
+    .programm__title {
+        margin: 0 0 20px 20px;
+        padding: 0;
+        max-width: 700px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .programm__close-button {
+        margin: 25px 22px 0 0;
+        padding: 0;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        right: 0;
+    }
+
+
+    .programm__text {
+        margin: 0 20px 0;
+        padding: 0;
+        max-width: 700px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .program__list {
+        margin: 0 0 0 20px;
+        padding: 0;
+        display: flex;
+    }
+
+    .programm_list-item {
+        margin: 0;
+        padding: 0;
+        max-width: 280px;
+    }
+
+    .programm_start {
+        margin: 0;
+        padding: 0;
+    }
+
+    .programm__section {
+        margin: 0;
+        padding: 40px 20px 20px;
+        display: flex;
+    }
+
+    .programm__section-left {
+        margin: 0;
+        padding: 0;
+        max-width: 580px;
+    }
+
+    .programm__training-title {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30.48px;
+        margin: 0 0 20px;
+        padding: 0;
+
+    }
+
+    .programm__training-text {
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+    }
+
+    .programm__image {
+        margin: 0;
+        padding: 0;
+    }
+
+    .programm__image {
+        margin: 10px 0 7px;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .programm__link {
+        margin: 0;
+        padding: 0;
+    }
+
+    .programm__side {
+        margin: 0;
+        padding: 0;
+        width: 30px;
+        height: 30px;
+    }
+
+    .programm__image-list {
+        margin: 10px 0 3px;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .programm__image-list_item {
+        margin: 0;
+        padding: 0;
+    }
+
+    .programm__icon {
+        width: 100px;
+        height: 125px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .programm__marketing {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .programm__marketing-container {
+        margin: 0 0 10px 20px;
+        padding: 0;
+    }
+
+
+    .section {
+        margin-top: 9px;
+    }
+
+    .programm__marketing-title {
+        margin: 0;
+        padding: 15px 0 18px;
+    }
+
+    .programm__close-block {
+        margin: 0;
+        padding: 0;
+        width: 30px;
+        height: 30px;
+        right: 14px;
+        top: 10px;
+    }
+
+    .programm__list_open {
+        margin: 0;
+        padding: 0;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+
+    .marketing__list {
+        margin: 19px 25px 0 30px;
+        padding: 0;
+    }
+
+    .marketing__item {
+        margin: 0 0 16px;
+        padding: 0;
+    }
+
+    .marketing__item:first-of-type {
+        margin-top: 22px;
+    }
+
+    .marketing__item:last-child {
+        padding-bottom: 25px;
+        margin-bottom: 0;
+    }
+
+    .programm__section-right {
+        margin: 0 0 0 20px;
+        padding: 0;
+        max-width: 180px;
+        position: relative;
+    }
+
+    .programm__right-container {
+        width: 180px;
+        height: 186px;
+        top: 30px;
+    }
+
+    .programm__inf {
+        margin: 10px 0 0;
+        padding: 31px 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .become__circle_active {
+        position: absolute;
+        right: 0;
+        top: -20px;
+    }
+
+    .programm__month {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: revert;
+    }
+
+    .programm__months {
+        margin: 0;
+        padding: 0;
+        width: 28px;
+        height: 25px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .programm__price {
+        margin: 3px 0 0;
+        padding: 0;
+        height: 19px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .programm__discount {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .programm__discount-money {
+        margin: 23px 0 0;
+        padding: 0;
+        display: flex;
+    }
+
+    .programm__monthly {
+        margin: 4px 0 0;
+        padding: 0;
+        display: flex;
+    }
+
+    .programm__btn-module {
+        width: 180px;
+        margin: 20px 0 0;
+    }
 }
