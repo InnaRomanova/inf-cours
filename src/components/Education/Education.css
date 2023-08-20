@@ -240,6 +240,14 @@
         height: 839px;
     }
 
+    .education__button-cours {
+        width: 100%;
+    }
+
+    .education__button-class {
+        width: 100%;
+    }
+
     .education__list-image {
         margin-bottom: 3px;
     }

@@ -29,12 +29,12 @@ function ProgrammCourses({ active, setActive }) {
           <div className="program__list">
             <div className="programm_list-item">
               <p className="programm_start">
-                Старт: <span>31 февраля</span>
+                Старт: <span className="span">31 февраля</span>
               </p>
             </div>
             <div className="programm_list-item">
               <p className="programm_start">
-                Длительность: <span>24 месяца</span>
+                Длительность: <span className="span">24 месяца</span>
               </p>
             </div>
           </div>

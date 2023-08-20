@@ -299,11 +299,19 @@
         line-height: 125%;
     }
 
+    .become__circle {
+        height: 30px;
+        width: 30px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
     .become__kouch {
-        display: flex;
         flex-direction: column;
-        margin: 0;
-        padding: 0;
     }
 
     .become__image {

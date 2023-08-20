@@ -342,7 +342,264 @@
     margin: 20px 0 0;
 }
 
-@media screen and (max-width: 844px) {
+@media screen and (max-width: 800px) {
+    .propgramm {
+        max-width: 600px;
+        min-height: 1250px;
+    }
+
+    .propgramm__container.active {
+        padding: 20px;
+        width: 100%;
+        height: 250px;
+    }
+
+    .programm__block {
+        max-height: 210px;
+        padding-top: 10px;
+    }
+
+    .programm__title {
+        /* width: 100%; */
+        margin: 0 0 10px 20px;
+        padding: 0;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .programm__close-button {
+        margin: 25px 22px 0 0;
+        padding: 0;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        right: 0;
+    }
+
+
+    .programm__text {
+        margin-bottom: 10px;
+        max-width: 550px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .program__list {
+        margin: 0 0 0 20px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .programm_list-item {
+        margin-bottom: 10px;
+        max-width: 280px;
+    }
+
+    .programm_start {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .span {
+        margin: 0;
+        padding: 0;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .programm__section {
+        margin: 0;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .programm__section-left {
+        margin: 0;
+        padding: 0;
+        max-width: 580px;
+    }
+
+    .programm__training-title {
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .programm__training-text {
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .programm__image {
+        margin: 0;
+        padding: 0;
+    }
+
+    .programm__image {
+        margin: 10px 0 7px;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .programm__link {
+        margin: 0;
+        padding: 0;
+    }
+
+    .programm__side {
+        margin: 0;
+        padding: 0;
+        width: 30px;
+        height: 30px;
+    }
+
+    .programm__image-list {
+        margin: 10px 0 3px;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .programm__image-list_item {
+        margin: 0;
+        padding: 0;
+    }
+
+    .programm__icon {
+        width: 100px;
+        height: 125px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .programm__marketing {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .programm__marketing-container {
+        margin: 0 0 10px 20px;
+        padding: 0;
+    }
+
+
+    .section {
+        margin-top: 9px;
+    }
+
+    .programm__marketing-title {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 22px;
+    }
+
+    .programm__close-block {
+        margin: 0;
+        padding: 0;
+        width: 30px;
+        height: 30px;
+        right: 14px;
+        top: 10px;
+    }
+
+    .programm__list_open {
+        margin: 0;
+        padding: 0;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+
+    .marketing__list {
+        margin-top: 0;
+    }
+
+    .marketing__item {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .marketing__item:first-of-type {
+        margin-top: 0;
+    }
+
+    .programm__section-right {
+        margin-left: 0;
+        margin-top: 30px;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .programm__right-container {
+        width: 100%;
+        height: 116px;
+        top: 30px;
+    }
+
+    .programm__month {
+        margin-bottom: 4px;
+    }
+
+    .programm__inf {
+        padding-top: 10px;
+    }
+
+    .programm__discount {
+        margin-top: 20px;
+        flex-direction: inherit;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .programm__discount-money {
+        margin-top: 0;
+        color: #484848;
+    }
+
+    .programm__monthly {
+        margin: 0;
+    }
+
+    .programm__btn-module {
+        width: 260px;
+        margin: 20px auto 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
     .propgramm {
         max-width: 360px;
         min-height: 2354px;
@@ -367,12 +624,13 @@
     }
 
     .programm__title {
+        width: 100%;
         margin: 0 0 20px 20px;
         padding: 0;
-        max-width: 700px;
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 45px;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
     }
 
     .programm__close-button {
@@ -388,16 +646,19 @@
     .programm__text {
         margin: 0 20px 0;
         padding: 0;
-        max-width: 700px;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 25px;
+        max-width: 299px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
     }
 
     .program__list {
         margin: 0 0 0 20px;
         padding: 0;
         display: flex;
+        flex-direction: column;
     }
 
     .programm_list-item {
@@ -407,8 +668,24 @@
     }
 
     .programm_start {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .span {
         margin: 0;
         padding: 0;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+
     }
 
     .programm__section {
