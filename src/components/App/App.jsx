@@ -8,6 +8,11 @@ import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
 import ProgrammCourses from "../ProgrammCourses/ProgrammCourses";
 
+function closePopup() {
+  console.log("hello");
+  // setIsCoursesPopupOpened(false);
+  // setOpenModal(false);
+}
 function App({}) {
   const [currentUser, setCurrentUser] = useState({});
   const [isCoursesPopupOpened, setIsCoursesPopupOpened] = useState(false);
@@ -20,15 +25,15 @@ function App({}) {
     setIsCoursesPopupOpened(true);
   }
 
-  const closePopup = () => {
-    setIsCoursesPopupOpened(false);
-  };
-
   const closeByEsc = (e) => {
     if (e.key === "Escape") {
       closePopup();
     }
   };
+
+  function all() {
+    console.log("hi");
+  }
 
   const closeByOverlay = (e) => {
     if (e.target.classList.contains(".navigation")) {
@@ -63,16 +68,19 @@ function App({}) {
                 </>
               }
             ></Route>
-            <Route
+            {/* <Route
+              exac
               path="/courses"
               element={
                 <ProgrammCourses
-                  component={ProgrammCourses}
+                  // component={ProgrammCourses}
                   active={openModal}
-                  setActive={setOpenModal}
+                  all={() => {
+                    all();
+                  }}
                 />
               }
-            ></Route>
+            ></Route> */}
           </Routes>
         </div>
       </CurrentUserContext.Provider>
