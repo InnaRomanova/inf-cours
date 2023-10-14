@@ -634,7 +634,7 @@
     }
 
     .programm__close-button {
-        margin: -137px 22px 0 0;
+        margin: 4px 13px 0 0;
         padding: 0;
         width: 30px;
         height: 30px;
@@ -697,7 +697,7 @@
     .programm__section-left {
         margin: 0;
         padding: 0;
-        max-width: 580px;
+        /* max-width: 580px; */
     }
 
     .programm__training-title {
@@ -720,21 +720,21 @@
     }
 
     .programm__image {
-        margin: 0;
-        padding: 0;
-    }
-
-    .programm__image {
         margin: -7px 0 7px;
         padding: 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        max-width: 318px;
     }
 
     .programm__link {
         margin: 0;
         padding: 0;
+    }
+
+    .programm__side:nth-last-child(odd) {
+        margin-right: 11px;
     }
 
     .programm__side {

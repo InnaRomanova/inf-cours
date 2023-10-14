@@ -8,11 +8,44 @@ import android from "../../images/Android.png";
 import digital from "../../images/Digital.png";
 import softSkills from "../../images/SoftSkills.png";
 import "../Navigation/Navigation.css";
+import CustomSwiperImage from "../elements/CustomSwiperImage";
 
 function ProgrammCourses({ active, handleClose }) {
   const matches = useMediaQuery("(min-width: 550px)");
 
-  console.log(matches);
+  const arrReviews = [
+    {
+      id: 1,
+      image: kouch,
+    },
+    {
+      id: 2,
+      image: android,
+    },
+    {
+      id: 3,
+      image: digital,
+    },
+    {
+      id: 4,
+      image: softSkills,
+    },
+  ];
+
+  const reviews = [];
+
+  arrReviews.forEach((rewiew, index) => {
+    reviews.push(
+      <>
+        <ul className="programm__image-list">
+          <li className="programm__image-list_item">
+            <img className="programm__icon" src={rewiew.image} alt="картинка" />
+          </li>
+        </ul>
+      </>
+    );
+  });
+
   return (
     <>
       {matches ? (
@@ -194,10 +227,7 @@ function ProgrammCourses({ active, handleClose }) {
           }
         </div>
       ) : (
-        <div
-          className="propgramm"
-          // onClick={setActive}
-        >
+        <div className="propgramm">
           <div className="propgramm__container" active={active}>
             <div className="programm__block">
               <h3 className="programm__title">Digital-маркетинг</h3>
@@ -238,7 +268,7 @@ function ProgrammCourses({ active, handleClose }) {
                   </p>
                 </div>
                 <div className="programm__image">
-                  <a className="programm__link" href="#">
+                  {/* <a className="programm__link" href="#">
                     <img
                       className="programm__side"
                       src={leftVector}
@@ -253,9 +283,11 @@ function ProgrammCourses({ active, handleClose }) {
                         alt="картинка"
                       />
                     </li>
-                    <li className="programm__image-list_item">
+                    <li
+                      className="programm__image-list_item"                   
+                    >
                       <img
-                        className="programm__icon"
+                        className="programm__icon"                        
                         src={softSkills}
                         alt="картинка"
                       />
@@ -268,7 +300,8 @@ function ProgrammCourses({ active, handleClose }) {
                       src={rigthVector}
                       alt="стрелка направо"
                     />
-                  </a>
+                  </a> */}
+                  <CustomSwiperImage swiperArray={arrReviews} />
                 </div>
 
                 <div className="programm__marketing">

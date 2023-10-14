@@ -75,6 +75,11 @@
     height: 30px;
 }
 
+.school__scroll-image:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
 .school__user {
     margin: 0;
     padding: 0;
